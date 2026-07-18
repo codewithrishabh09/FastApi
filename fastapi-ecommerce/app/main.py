@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException, Query, Path
-from app.services.products import all_get_products
+from app.services.products import get_all_products
 from app.schema.product import Product
 import json
 
@@ -91,7 +91,6 @@ def get_products_by_id(
 
 
 # uses of POST method for create---------->>>>>
-
 @app.post("/products", status_code=201)
 def create_product(product: Product):
     return product.model_dump(mode="json")

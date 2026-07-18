@@ -1,0 +1,21 @@
+[
+    {
+    "id": 1,
+    "sku": "SKU-GAM-0001",
+    "name": "Logitech Gaming Model 1",
+    "description": "High quality gaming for everyday use.",
+    "category": "Gaming",
+    "brand": "Logitech",
+    "price": 54192,
+    "stock": 99,
+    "rating": 5.0,
+    "discount": 32,
+    "is_available": false,
+    "tags": [
+      "gaming",
+      "logitech",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product1/600/600"
+  }
+]
