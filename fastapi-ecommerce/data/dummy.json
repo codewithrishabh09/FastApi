@@ -1,5 +1,5 @@
 [
-    {
+  {
     "id": 1,
     "sku": "SKU-GAM-0001",
     "name": "Logitech Gaming Model 1",
@@ -17,5 +17,40 @@
       "sale"
     ],
     "image_url": "https://picsum.photos/seed/product1/600/600"
+  },
+  
+  {
+    "id": 144375451921989242188449037510782235211,
+    "sku": "SKU-SMA-0005",
+    "name": "Levi's Fashion",
+    "description": "string",
+    "category": "mobiles",
+    "brand": "Vivo",
+    "price": 1.0,
+    "currency": "INR",
+    "discount_percent": 0,
+    "stock": 3,
+    "is_avaliable": true,
+    "rating": 5.0,
+    "tags": [
+      "string"
+    ],
+    "image_url": [
+      "https://example.com/"
+    ],
+    "seller": {
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "name": "Mi Store India",
+      "email": "user@example.com",
+      "website": "https://example.com/"
+    },
+    "created_at": "2026-07-19T17:13:57.148553Z",
+    "dimension_cm": {
+      "length": 1.0,
+      "width": 1.0,
+      "height": 1.0
+    },
+    "final_prices": 1.0,
+    "volume_cm3": 1.0
   }
 ]
