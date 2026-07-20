@@ -18,22 +18,21 @@
     ],
     "image_url": "https://picsum.photos/seed/product1/600/600"
   },
-  
   {
-    "id": 144375451921989242188449037510782235211,
-    "sku": "SKU-SMA-0005",
+    "id": 66220674277112341691344184510588430988,
+    "sku": "SKU-FUR-0006",
     "name": "Levi's Fashion",
     "description": "string",
     "category": "mobiles",
     "brand": "Vivo",
-    "price": 1.0,
+    "price": 1234.0,
     "currency": "INR",
-    "discount_percent": 0,
-    "stock": 3,
+    "discount_percent": 45,
+    "stock": 5,
     "is_avaliable": true,
     "rating": 5.0,
     "tags": [
-      "string"
+      "laptop"
     ],
     "image_url": [
       "https://example.com/"
@@ -41,16 +40,50 @@
     "seller": {
       "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
       "name": "Mi Store India",
-      "email": "user@example.com",
+      "email": "user@applestore.in",
       "website": "https://example.com/"
     },
-    "created_at": "2026-07-19T17:13:57.148553Z",
+    "created_at": "2026-07-19T19:44:34.154203Z",
     "dimension_cm": {
       "length": 1.0,
       "width": 1.0,
       "height": 1.0
     },
-    "final_prices": 1.0,
+    "final_prices": 678.7,
+    "volume_cm3": 1.0
+  },
+  {
+    "id": 264925271458714143746960976743728942971,
+    "sku": "SKU-SMA-0013",
+    "name": "Levi's Fashion",
+    "description": "string",
+    "category": "mobiles",
+    "brand": "Vivo",
+    "price": 12435.0,
+    "currency": "INR",
+    "discount_percent": 34,
+    "stock": 4,
+    "is_avaliable": true,
+    "rating": 5.0,
+    "tags": [
+      "laptop"
+    ],
+    "image_url": [
+      "https://example.com/"
+    ],
+    "seller": {
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "name": "Mi Store India",
+      "email": "user@applestore.in",
+      "website": "https://example.com/"
+    },
+    "created_at": "2026-07-19T19:49:18.966914Z",
+    "dimension_cm": {
+      "length": 1.0,
+      "width": 1.0,
+      "height": 1.0
+    },
+    "final_prices": 8207.1,
     "volume_cm3": 1.0
   }
 ]

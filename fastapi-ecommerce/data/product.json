@@ -1,0 +1,3802 @@
+[
+  {
+    "id": 1,
+    "sku": "SKU-GAM-0001",
+    "name": "Logitech Gaming Model 1",
+    "description": "High quality gaming for everyday use.",
+    "category": "Gaming",
+    "brand": "Logitech",
+    "price": 54192,
+    "stock": 99,
+    "rating": 5.0,
+    "discount": 32,
+    "is_available": false,
+    "tags": [
+      "gaming",
+      "logitech",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product1/600/600"
+  },
+  {
+    "id": 2,
+    "sku": "SKU-KIT-0002",
+    "name": "Prestige Kitchen Model 2",
+    "description": "High quality kitchen for everyday use.",
+    "category": "Kitchen",
+    "brand": "Prestige",
+    "price": 41273,
+    "stock": 135,
+    "rating": 4.3,
+    "discount": 51,
+    "is_available": true,
+    "tags": [
+      "kitchen",
+      "prestige",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product2/600/600"
+  },
+  {
+    "id": 3,
+    "sku": "SKU-BOO-0003",
+    "name": "Penguin Book Model 3",
+    "description": "High quality books for everyday use.",
+    "category": "Books",
+    "brand": "Penguin",
+    "price": 52122,
+    "stock": 162,
+    "rating": 3.6,
+    "discount": 28,
+    "is_available": true,
+    "tags": [
+      "books",
+      "penguin",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product3/600/600"
+  },
+  {
+    "id": 4,
+    "sku": "SKU-BEA-0004",
+    "name": "L'Or\u00e9al Beauty Model 4",
+    "description": "High quality beauty for everyday use.",
+    "category": "Beauty",
+    "brand": "L'Or\u00e9al",
+    "price": 111471,
+    "stock": 110,
+    "rating": 4.1,
+    "discount": 47,
+    "is_available": false,
+    "tags": [
+      "beauty",
+      "lor\u00e9al",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product4/600/600"
+  },
+  {
+    "id": 5,
+    "sku": "SKU-SMA-0005",
+    "name": "Apple Smartphone Model 5",
+    "description": "High quality smartphones for everyday use.",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "price": 45559,
+    "stock": 138,
+    "rating": 3.7,
+    "discount": 12,
+    "is_available": true,
+    "tags": [
+      "smartphones",
+      "apple",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product5/600/600"
+  },
+  {
+    "id": 6,
+    "sku": "SKU-FUR-0006",
+    "name": "IKEA Furniture Model 6",
+    "description": "High quality furniture for everyday use.",
+    "category": "Furniture",
+    "brand": "IKEA",
+    "price": 77977,
+    "stock": 151,
+    "rating": 4.5,
+    "discount": 32,
+    "is_available": true,
+    "tags": [
+      "furniture",
+      "ikea",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product6/600/600"
+  },
+  {
+    "id": 7,
+    "sku": "SKU-LAP-0007",
+    "name": "Dell Laptop Model 7",
+    "description": "High quality laptops for everyday use.",
+    "category": "Laptops",
+    "brand": "Dell",
+    "price": 137349,
+    "stock": 133,
+    "rating": 4.4,
+    "discount": 5,
+    "is_available": true,
+    "tags": [
+      "laptops",
+      "dell",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product7/600/600"
+  },
+  {
+    "id": 8,
+    "sku": "SKU-GAM-0008",
+    "name": "Logitech Gaming Model 8",
+    "description": "High quality gaming for everyday use.",
+    "category": "Gaming",
+    "brand": "Logitech",
+    "price": 80780,
+    "stock": 171,
+    "rating": 3.8,
+    "discount": 30,
+    "is_available": true,
+    "tags": [
+      "gaming",
+      "logitech",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product8/600/600"
+  },
+  {
+    "id": 9,
+    "sku": "SKU-SHO-0009",
+    "name": "Nike Shoe Model 9",
+    "description": "High quality shoes for everyday use.",
+    "category": "Shoes",
+    "brand": "Nike",
+    "price": 83482,
+    "stock": 120,
+    "rating": 5.0,
+    "discount": 42,
+    "is_available": true,
+    "tags": [
+      "shoes",
+      "nike",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product9/600/600"
+  },
+  {
+    "id": 10,
+    "sku": "SKU-FUR-0010",
+    "name": "IKEA Furniture Model 10",
+    "description": "High quality furniture for everyday use.",
+    "category": "Furniture",
+    "brand": "IKEA",
+    "price": 127634,
+    "stock": 191,
+    "rating": 4.3,
+    "discount": 58,
+    "is_available": true,
+    "tags": [
+      "furniture",
+      "ikea",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product10/600/600"
+  },
+  {
+    "id": 11,
+    "sku": "SKU-HEA-0011",
+    "name": "Sony Headphone Model 11",
+    "description": "High quality headphones for everyday use.",
+    "category": "Headphones",
+    "brand": "Sony",
+    "price": 122724,
+    "stock": 81,
+    "rating": 4.2,
+    "discount": 7,
+    "is_available": true,
+    "tags": [
+      "headphones",
+      "sony",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product11/600/600"
+  },
+  {
+    "id": 12,
+    "sku": "SKU-GAM-0012",
+    "name": "Logitech Gaming Model 12",
+    "description": "High quality gaming for everyday use.",
+    "category": "Gaming",
+    "brand": "Logitech",
+    "price": 67182,
+    "stock": 69,
+    "rating": 4.6,
+    "discount": 13,
+    "is_available": true,
+    "tags": [
+      "gaming",
+      "logitech",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product12/600/600"
+  },
+  {
+    "id": 13,
+    "sku": "SKU-SMA-0013",
+    "name": "Apple Smartphone Model 13",
+    "description": "High quality smartphones for everyday use.",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "price": 111057,
+    "stock": 107,
+    "rating": 3.8,
+    "discount": 51,
+    "is_available": true,
+    "tags": [
+      "smartphones",
+      "apple",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product13/600/600"
+  },
+  {
+    "id": 14,
+    "sku": "SKU-FUR-0014",
+    "name": "IKEA Furniture Model 14",
+    "description": "High quality furniture for everyday use.",
+    "category": "Furniture",
+    "brand": "IKEA",
+    "price": 27637,
+    "stock": 123,
+    "rating": 4.6,
+    "discount": 46,
+    "is_available": true,
+    "tags": [
+      "furniture",
+      "ikea",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product14/600/600"
+  },
+  {
+    "id": 15,
+    "sku": "SKU-LAP-0015",
+    "name": "Dell Laptop Model 15",
+    "description": "High quality laptops for everyday use.",
+    "category": "Laptops",
+    "brand": "Dell",
+    "price": 56089,
+    "stock": 170,
+    "rating": 4.8,
+    "discount": 55,
+    "is_available": true,
+    "tags": [
+      "laptops",
+      "dell",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product15/600/600"
+  },
+  {
+    "id": 16,
+    "sku": "SKU-BEA-0016",
+    "name": "L'Or\u00e9al Beauty Model 16",
+    "description": "High quality beauty for everyday use.",
+    "category": "Beauty",
+    "brand": "L'Or\u00e9al",
+    "price": 88483,
+    "stock": 173,
+    "rating": 4.5,
+    "discount": 4,
+    "is_available": false,
+    "tags": [
+      "beauty",
+      "lor\u00e9al",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product16/600/600"
+  },
+  {
+    "id": 17,
+    "sku": "SKU-SMA-0017",
+    "name": "Apple Smartphone Model 17",
+    "description": "High quality smartphones for everyday use.",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "price": 8001,
+    "stock": 163,
+    "rating": 4.3,
+    "discount": 21,
+    "is_available": false,
+    "tags": [
+      "smartphones",
+      "apple",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product17/600/600"
+  },
+  {
+    "id": 18,
+    "sku": "SKU-HEA-0018",
+    "name": "Sony Headphone Model 18",
+    "description": "High quality headphones for everyday use.",
+    "category": "Headphones",
+    "brand": "Sony",
+    "price": 83597,
+    "stock": 143,
+    "rating": 4.5,
+    "discount": 2,
+    "is_available": true,
+    "tags": [
+      "headphones",
+      "sony",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product18/600/600"
+  },
+  {
+    "id": 19,
+    "sku": "SKU-SHO-0019",
+    "name": "Nike Shoe Model 19",
+    "description": "High quality shoes for everyday use.",
+    "category": "Shoes",
+    "brand": "Nike",
+    "price": 135541,
+    "stock": 84,
+    "rating": 3.9,
+    "discount": 30,
+    "is_available": true,
+    "tags": [
+      "shoes",
+      "nike",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product19/600/600"
+  },
+  {
+    "id": 20,
+    "sku": "SKU-KIT-0020",
+    "name": "Prestige Kitchen Model 20",
+    "description": "High quality kitchen for everyday use.",
+    "category": "Kitchen",
+    "brand": "Prestige",
+    "price": 30024,
+    "stock": 124,
+    "rating": 3.8,
+    "discount": 54,
+    "is_available": true,
+    "tags": [
+      "kitchen",
+      "prestige",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product20/600/600"
+  },
+  {
+    "id": 21,
+    "sku": "SKU-HEA-0021",
+    "name": "Sony Headphone Model 21",
+    "description": "High quality headphones for everyday use.",
+    "category": "Headphones",
+    "brand": "Sony",
+    "price": 73488,
+    "stock": 29,
+    "rating": 4.6,
+    "discount": 59,
+    "is_available": false,
+    "tags": [
+      "headphones",
+      "sony",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product21/600/600"
+  },
+  {
+    "id": 22,
+    "sku": "SKU-BEA-0022",
+    "name": "L'Or\u00e9al Beauty Model 22",
+    "description": "High quality beauty for everyday use.",
+    "category": "Beauty",
+    "brand": "L'Or\u00e9al",
+    "price": 62060,
+    "stock": 67,
+    "rating": 4.1,
+    "discount": 4,
+    "is_available": true,
+    "tags": [
+      "beauty",
+      "lor\u00e9al",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product22/600/600"
+  },
+  {
+    "id": 23,
+    "sku": "SKU-SHO-0023",
+    "name": "Nike Shoe Model 23",
+    "description": "High quality shoes for everyday use.",
+    "category": "Shoes",
+    "brand": "Nike",
+    "price": 45465,
+    "stock": 37,
+    "rating": 3.7,
+    "discount": 35,
+    "is_available": true,
+    "tags": [
+      "shoes",
+      "nike",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product23/600/600"
+  },
+  {
+    "id": 24,
+    "sku": "SKU-BEA-0024",
+    "name": "L'Or\u00e9al Beauty Model 24",
+    "description": "High quality beauty for everyday use.",
+    "category": "Beauty",
+    "brand": "L'Or\u00e9al",
+    "price": 64527,
+    "stock": 135,
+    "rating": 3.9,
+    "discount": 39,
+    "is_available": true,
+    "tags": [
+      "beauty",
+      "lor\u00e9al",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product24/600/600"
+  },
+  {
+    "id": 25,
+    "sku": "SKU-LAP-0025",
+    "name": "Dell Laptop Model 25",
+    "description": "High quality laptops for everyday use.",
+    "category": "Laptops",
+    "brand": "Dell",
+    "price": 64637,
+    "stock": 33,
+    "rating": 5.0,
+    "discount": 30,
+    "is_available": false,
+    "tags": [
+      "laptops",
+      "dell",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product25/600/600"
+  },
+  {
+    "id": 26,
+    "sku": "SKU-WAT-0026",
+    "name": "Casio Watche Model 26",
+    "description": "High quality watches for everyday use.",
+    "category": "Watches",
+    "brand": "Casio",
+    "price": 63580,
+    "stock": 143,
+    "rating": 3.6,
+    "discount": 47,
+    "is_available": true,
+    "tags": [
+      "watches",
+      "casio",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product26/600/600"
+  },
+  {
+    "id": 27,
+    "sku": "SKU-SMA-0027",
+    "name": "Apple Smartphone Model 27",
+    "description": "High quality smartphones for everyday use.",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "price": 93985,
+    "stock": 56,
+    "rating": 3.6,
+    "discount": 1,
+    "is_available": false,
+    "tags": [
+      "smartphones",
+      "apple",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product27/600/600"
+  },
+  {
+    "id": 28,
+    "sku": "SKU-FUR-0028",
+    "name": "IKEA Furniture Model 28",
+    "description": "High quality furniture for everyday use.",
+    "category": "Furniture",
+    "brand": "IKEA",
+    "price": 801,
+    "stock": 118,
+    "rating": 4.7,
+    "discount": 18,
+    "is_available": false,
+    "tags": [
+      "furniture",
+      "ikea",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product28/600/600"
+  },
+  {
+    "id": 29,
+    "sku": "SKU-KIT-0029",
+    "name": "Prestige Kitchen Model 29",
+    "description": "High quality kitchen for everyday use.",
+    "category": "Kitchen",
+    "brand": "Prestige",
+    "price": 114467,
+    "stock": 8,
+    "rating": 3.9,
+    "discount": 34,
+    "is_available": true,
+    "tags": [
+      "kitchen",
+      "prestige",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product29/600/600"
+  },
+  {
+    "id": 30,
+    "sku": "SKU-GAM-0030",
+    "name": "Logitech Gaming Model 30",
+    "description": "High quality gaming for everyday use.",
+    "category": "Gaming",
+    "brand": "Logitech",
+    "price": 102954,
+    "stock": 128,
+    "rating": 4.9,
+    "discount": 37,
+    "is_available": false,
+    "tags": [
+      "gaming",
+      "logitech",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product30/600/600"
+  },
+  {
+    "id": 31,
+    "sku": "SKU-BEA-0031",
+    "name": "L'Or\u00e9al Beauty Model 31",
+    "description": "High quality beauty for everyday use.",
+    "category": "Beauty",
+    "brand": "L'Or\u00e9al",
+    "price": 66513,
+    "stock": 16,
+    "rating": 4.1,
+    "discount": 40,
+    "is_available": true,
+    "tags": [
+      "beauty",
+      "lor\u00e9al",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product31/600/600"
+  },
+  {
+    "id": 32,
+    "sku": "SKU-BOO-0032",
+    "name": "Penguin Book Model 32",
+    "description": "High quality books for everyday use.",
+    "category": "Books",
+    "brand": "Penguin",
+    "price": 64828,
+    "stock": 76,
+    "rating": 3.7,
+    "discount": 15,
+    "is_available": true,
+    "tags": [
+      "books",
+      "penguin",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product32/600/600"
+  },
+  {
+    "id": 33,
+    "sku": "SKU-LAP-0033",
+    "name": "Dell Laptop Model 33",
+    "description": "High quality laptops for everyday use.",
+    "category": "Laptops",
+    "brand": "Dell",
+    "price": 93097,
+    "stock": 73,
+    "rating": 3.7,
+    "discount": 51,
+    "is_available": true,
+    "tags": [
+      "laptops",
+      "dell",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product33/600/600"
+  },
+  {
+    "id": 34,
+    "sku": "SKU-BEA-0034",
+    "name": "L'Or\u00e9al Beauty Model 34",
+    "description": "High quality beauty for everyday use.",
+    "category": "Beauty",
+    "brand": "L'Or\u00e9al",
+    "price": 88844,
+    "stock": 62,
+    "rating": 4.7,
+    "discount": 48,
+    "is_available": true,
+    "tags": [
+      "beauty",
+      "lor\u00e9al",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product34/600/600"
+  },
+  {
+    "id": 35,
+    "sku": "SKU-SHO-0035",
+    "name": "Nike Shoe Model 35",
+    "description": "High quality shoes for everyday use.",
+    "category": "Shoes",
+    "brand": "Nike",
+    "price": 142338,
+    "stock": 27,
+    "rating": 4.2,
+    "discount": 48,
+    "is_available": false,
+    "tags": [
+      "shoes",
+      "nike",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product35/600/600"
+  },
+  {
+    "id": 36,
+    "sku": "SKU-KIT-0036",
+    "name": "Prestige Kitchen Model 36",
+    "description": "High quality kitchen for everyday use.",
+    "category": "Kitchen",
+    "brand": "Prestige",
+    "price": 32136,
+    "stock": 192,
+    "rating": 4.2,
+    "discount": 56,
+    "is_available": true,
+    "tags": [
+      "kitchen",
+      "prestige",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product36/600/600"
+  },
+  {
+    "id": 37,
+    "sku": "SKU-BOO-0037",
+    "name": "Penguin Book Model 37",
+    "description": "High quality books for everyday use.",
+    "category": "Books",
+    "brand": "Penguin",
+    "price": 124146,
+    "stock": 101,
+    "rating": 4.5,
+    "discount": 18,
+    "is_available": true,
+    "tags": [
+      "books",
+      "penguin",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product37/600/600"
+  },
+  {
+    "id": 38,
+    "sku": "SKU-LAP-0038",
+    "name": "Dell Laptop Model 38",
+    "description": "High quality laptops for everyday use.",
+    "category": "Laptops",
+    "brand": "Dell",
+    "price": 117483,
+    "stock": 132,
+    "rating": 4.1,
+    "discount": 53,
+    "is_available": false,
+    "tags": [
+      "laptops",
+      "dell",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product38/600/600"
+  },
+  {
+    "id": 39,
+    "sku": "SKU-HEA-0039",
+    "name": "Sony Headphone Model 39",
+    "description": "High quality headphones for everyday use.",
+    "category": "Headphones",
+    "brand": "Sony",
+    "price": 142221,
+    "stock": 2,
+    "rating": 4.8,
+    "discount": 33,
+    "is_available": true,
+    "tags": [
+      "headphones",
+      "sony",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product39/600/600"
+  },
+  {
+    "id": 40,
+    "sku": "SKU-WAT-0040",
+    "name": "Casio Watche Model 40",
+    "description": "High quality watches for everyday use.",
+    "category": "Watches",
+    "brand": "Casio",
+    "price": 43593,
+    "stock": 142,
+    "rating": 4.1,
+    "discount": 60,
+    "is_available": true,
+    "tags": [
+      "watches",
+      "casio",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product40/600/600"
+  },
+  {
+    "id": 41,
+    "sku": "SKU-SHO-0041",
+    "name": "Nike Shoe Model 41",
+    "description": "High quality shoes for everyday use.",
+    "category": "Shoes",
+    "brand": "Nike",
+    "price": 35156,
+    "stock": 4,
+    "rating": 3.7,
+    "discount": 26,
+    "is_available": true,
+    "tags": [
+      "shoes",
+      "nike",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product41/600/600"
+  },
+  {
+    "id": 42,
+    "sku": "SKU-GAM-0042",
+    "name": "Logitech Gaming Model 42",
+    "description": "High quality gaming for everyday use.",
+    "category": "Gaming",
+    "brand": "Logitech",
+    "price": 18643,
+    "stock": 159,
+    "rating": 4.5,
+    "discount": 46,
+    "is_available": true,
+    "tags": [
+      "gaming",
+      "logitech",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product42/600/600"
+  },
+  {
+    "id": 43,
+    "sku": "SKU-BEA-0043",
+    "name": "L'Or\u00e9al Beauty Model 43",
+    "description": "High quality beauty for everyday use.",
+    "category": "Beauty",
+    "brand": "L'Or\u00e9al",
+    "price": 117881,
+    "stock": 78,
+    "rating": 3.8,
+    "discount": 13,
+    "is_available": true,
+    "tags": [
+      "beauty",
+      "lor\u00e9al",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product43/600/600"
+  },
+  {
+    "id": 44,
+    "sku": "SKU-KIT-0044",
+    "name": "Prestige Kitchen Model 44",
+    "description": "High quality kitchen for everyday use.",
+    "category": "Kitchen",
+    "brand": "Prestige",
+    "price": 17535,
+    "stock": 109,
+    "rating": 3.7,
+    "discount": 51,
+    "is_available": true,
+    "tags": [
+      "kitchen",
+      "prestige",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product44/600/600"
+  },
+  {
+    "id": 45,
+    "sku": "SKU-LAP-0045",
+    "name": "Dell Laptop Model 45",
+    "description": "High quality laptops for everyday use.",
+    "category": "Laptops",
+    "brand": "Dell",
+    "price": 114478,
+    "stock": 184,
+    "rating": 4.4,
+    "discount": 5,
+    "is_available": true,
+    "tags": [
+      "laptops",
+      "dell",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product45/600/600"
+  },
+  {
+    "id": 46,
+    "sku": "SKU-SMA-0046",
+    "name": "Apple Smartphone Model 46",
+    "description": "High quality smartphones for everyday use.",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "price": 56153,
+    "stock": 22,
+    "rating": 4.2,
+    "discount": 12,
+    "is_available": true,
+    "tags": [
+      "smartphones",
+      "apple",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product46/600/600"
+  },
+  {
+    "id": 47,
+    "sku": "SKU-WAT-0047",
+    "name": "Casio Watche Model 47",
+    "description": "High quality watches for everyday use.",
+    "category": "Watches",
+    "brand": "Casio",
+    "price": 128222,
+    "stock": 38,
+    "rating": 4.1,
+    "discount": 45,
+    "is_available": false,
+    "tags": [
+      "watches",
+      "casio",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product47/600/600"
+  },
+  {
+    "id": 48,
+    "sku": "SKU-SHO-0048",
+    "name": "Nike Shoe Model 48",
+    "description": "High quality shoes for everyday use.",
+    "category": "Shoes",
+    "brand": "Nike",
+    "price": 24980,
+    "stock": 24,
+    "rating": 3.8,
+    "discount": 45,
+    "is_available": true,
+    "tags": [
+      "shoes",
+      "nike",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product48/600/600"
+  },
+  {
+    "id": 49,
+    "sku": "SKU-SMA-0049",
+    "name": "Apple Smartphone Model 49",
+    "description": "High quality smartphones for everyday use.",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "price": 113714,
+    "stock": 54,
+    "rating": 4.5,
+    "discount": 9,
+    "is_available": true,
+    "tags": [
+      "smartphones",
+      "apple",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product49/600/600"
+  },
+  {
+    "id": 50,
+    "sku": "SKU-FUR-0050",
+    "name": "IKEA Furniture Model 50",
+    "description": "High quality furniture for everyday use.",
+    "category": "Furniture",
+    "brand": "IKEA",
+    "price": 120219,
+    "stock": 187,
+    "rating": 4.7,
+    "discount": 22,
+    "is_available": true,
+    "tags": [
+      "furniture",
+      "ikea",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product50/600/600"
+  },
+  {
+    "id": 51,
+    "sku": "SKU-SMA-0051",
+    "name": "Apple Smartphone Model 51",
+    "description": "High quality smartphones for everyday use.",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "price": 46033,
+    "stock": 41,
+    "rating": 3.6,
+    "discount": 13,
+    "is_available": true,
+    "tags": [
+      "smartphones",
+      "apple",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product51/600/600"
+  },
+  {
+    "id": 52,
+    "sku": "SKU-FUR-0052",
+    "name": "IKEA Furniture Model 52",
+    "description": "High quality furniture for everyday use.",
+    "category": "Furniture",
+    "brand": "IKEA",
+    "price": 93086,
+    "stock": 111,
+    "rating": 3.5,
+    "discount": 32,
+    "is_available": true,
+    "tags": [
+      "furniture",
+      "ikea",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product52/600/600"
+  },
+  {
+    "id": 53,
+    "sku": "SKU-BOO-0053",
+    "name": "Penguin Book Model 53",
+    "description": "High quality books for everyday use.",
+    "category": "Books",
+    "brand": "Penguin",
+    "price": 76716,
+    "stock": 60,
+    "rating": 4.6,
+    "discount": 21,
+    "is_available": true,
+    "tags": [
+      "books",
+      "penguin",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product53/600/600"
+  },
+  {
+    "id": 54,
+    "sku": "SKU-BEA-0054",
+    "name": "L'Or\u00e9al Beauty Model 54",
+    "description": "High quality beauty for everyday use.",
+    "category": "Beauty",
+    "brand": "L'Or\u00e9al",
+    "price": 87330,
+    "stock": 144,
+    "rating": 3.8,
+    "discount": 55,
+    "is_available": true,
+    "tags": [
+      "beauty",
+      "lor\u00e9al",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product54/600/600"
+  },
+  {
+    "id": 55,
+    "sku": "SKU-HEA-0055",
+    "name": "Sony Headphone Model 55",
+    "description": "High quality headphones for everyday use.",
+    "category": "Headphones",
+    "brand": "Sony",
+    "price": 77235,
+    "stock": 156,
+    "rating": 4.7,
+    "discount": 28,
+    "is_available": false,
+    "tags": [
+      "headphones",
+      "sony",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product55/600/600"
+  },
+  {
+    "id": 56,
+    "sku": "SKU-SMA-0056",
+    "name": "Apple Smartphone Model 56",
+    "description": "High quality smartphones for everyday use.",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "price": 88273,
+    "stock": 138,
+    "rating": 4.0,
+    "discount": 41,
+    "is_available": true,
+    "tags": [
+      "smartphones",
+      "apple",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product56/600/600"
+  },
+  {
+    "id": 57,
+    "sku": "SKU-SHO-0057",
+    "name": "Nike Shoe Model 57",
+    "description": "High quality shoes for everyday use.",
+    "category": "Shoes",
+    "brand": "Nike",
+    "price": 98877,
+    "stock": 23,
+    "rating": 4.2,
+    "discount": 29,
+    "is_available": true,
+    "tags": [
+      "shoes",
+      "nike",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product57/600/600"
+  },
+  {
+    "id": 58,
+    "sku": "SKU-SMA-0058",
+    "name": "Apple Smartphone Model 58",
+    "description": "High quality smartphones for everyday use.",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "price": 33003,
+    "stock": 102,
+    "rating": 4.8,
+    "discount": 32,
+    "is_available": true,
+    "tags": [
+      "smartphones",
+      "apple",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product58/600/600"
+  },
+  {
+    "id": 59,
+    "sku": "SKU-HEA-0059",
+    "name": "Sony Headphone Model 59",
+    "description": "High quality headphones for everyday use.",
+    "category": "Headphones",
+    "brand": "Sony",
+    "price": 137042,
+    "stock": 86,
+    "rating": 4.8,
+    "discount": 13,
+    "is_available": true,
+    "tags": [
+      "headphones",
+      "sony",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product59/600/600"
+  },
+  {
+    "id": 60,
+    "sku": "SKU-BOO-0060",
+    "name": "Penguin Book Model 60",
+    "description": "High quality books for everyday use.",
+    "category": "Books",
+    "brand": "Penguin",
+    "price": 131101,
+    "stock": 181,
+    "rating": 4.0,
+    "discount": 28,
+    "is_available": true,
+    "tags": [
+      "books",
+      "penguin",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product60/600/600"
+  },
+  {
+    "id": 61,
+    "sku": "SKU-SMA-0061",
+    "name": "Apple Smartphone Model 61",
+    "description": "High quality smartphones for everyday use.",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "price": 5267,
+    "stock": 92,
+    "rating": 3.7,
+    "discount": 43,
+    "is_available": true,
+    "tags": [
+      "smartphones",
+      "apple",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product61/600/600"
+  },
+  {
+    "id": 62,
+    "sku": "SKU-BEA-0062",
+    "name": "L'Or\u00e9al Beauty Model 62",
+    "description": "High quality beauty for everyday use.",
+    "category": "Beauty",
+    "brand": "L'Or\u00e9al",
+    "price": 124984,
+    "stock": 74,
+    "rating": 3.8,
+    "discount": 44,
+    "is_available": false,
+    "tags": [
+      "beauty",
+      "lor\u00e9al",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product62/600/600"
+  },
+  {
+    "id": 63,
+    "sku": "SKU-BOO-0063",
+    "name": "Penguin Book Model 63",
+    "description": "High quality books for everyday use.",
+    "category": "Books",
+    "brand": "Penguin",
+    "price": 6551,
+    "stock": 143,
+    "rating": 3.6,
+    "discount": 40,
+    "is_available": true,
+    "tags": [
+      "books",
+      "penguin",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product63/600/600"
+  },
+  {
+    "id": 64,
+    "sku": "SKU-SHO-0064",
+    "name": "Nike Shoe Model 64",
+    "description": "High quality shoes for everyday use.",
+    "category": "Shoes",
+    "brand": "Nike",
+    "price": 30197,
+    "stock": 153,
+    "rating": 4.4,
+    "discount": 14,
+    "is_available": true,
+    "tags": [
+      "shoes",
+      "nike",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product64/600/600"
+  },
+  {
+    "id": 65,
+    "sku": "SKU-HEA-0065",
+    "name": "Sony Headphone Model 65",
+    "description": "High quality headphones for everyday use.",
+    "category": "Headphones",
+    "brand": "Sony",
+    "price": 62704,
+    "stock": 41,
+    "rating": 4.7,
+    "discount": 19,
+    "is_available": false,
+    "tags": [
+      "headphones",
+      "sony",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product65/600/600"
+  },
+  {
+    "id": 66,
+    "sku": "SKU-WAT-0066",
+    "name": "Casio Watche Model 66",
+    "description": "High quality watches for everyday use.",
+    "category": "Watches",
+    "brand": "Casio",
+    "price": 29265,
+    "stock": 58,
+    "rating": 3.9,
+    "discount": 27,
+    "is_available": true,
+    "tags": [
+      "watches",
+      "casio",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product66/600/600"
+  },
+  {
+    "id": 67,
+    "sku": "SKU-GAM-0067",
+    "name": "Logitech Gaming Model 67",
+    "description": "High quality gaming for everyday use.",
+    "category": "Gaming",
+    "brand": "Logitech",
+    "price": 85206,
+    "stock": 181,
+    "rating": 4.2,
+    "discount": 24,
+    "is_available": true,
+    "tags": [
+      "gaming",
+      "logitech",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product67/600/600"
+  },
+  {
+    "id": 68,
+    "sku": "SKU-WAT-0068",
+    "name": "Casio Watche Model 68",
+    "description": "High quality watches for everyday use.",
+    "category": "Watches",
+    "brand": "Casio",
+    "price": 49943,
+    "stock": 47,
+    "rating": 4.5,
+    "discount": 13,
+    "is_available": true,
+    "tags": [
+      "watches",
+      "casio",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product68/600/600"
+  },
+  {
+    "id": 69,
+    "sku": "SKU-HEA-0069",
+    "name": "Sony Headphone Model 69",
+    "description": "High quality headphones for everyday use.",
+    "category": "Headphones",
+    "brand": "Sony",
+    "price": 94967,
+    "stock": 79,
+    "rating": 4.3,
+    "discount": 40,
+    "is_available": true,
+    "tags": [
+      "headphones",
+      "sony",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product69/600/600"
+  },
+  {
+    "id": 70,
+    "sku": "SKU-GAM-0070",
+    "name": "Logitech Gaming Model 70",
+    "description": "High quality gaming for everyday use.",
+    "category": "Gaming",
+    "brand": "Logitech",
+    "price": 43532,
+    "stock": 177,
+    "rating": 3.9,
+    "discount": 9,
+    "is_available": true,
+    "tags": [
+      "gaming",
+      "logitech",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product70/600/600"
+  },
+  {
+    "id": 71,
+    "sku": "SKU-LAP-0071",
+    "name": "Dell Laptop Model 71",
+    "description": "High quality laptops for everyday use.",
+    "category": "Laptops",
+    "brand": "Dell",
+    "price": 96013,
+    "stock": 75,
+    "rating": 4.3,
+    "discount": 13,
+    "is_available": true,
+    "tags": [
+      "laptops",
+      "dell",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product71/600/600"
+  },
+  {
+    "id": 72,
+    "sku": "SKU-SHO-0072",
+    "name": "Nike Shoe Model 72",
+    "description": "High quality shoes for everyday use.",
+    "category": "Shoes",
+    "brand": "Nike",
+    "price": 77002,
+    "stock": 166,
+    "rating": 4.9,
+    "discount": 54,
+    "is_available": true,
+    "tags": [
+      "shoes",
+      "nike",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product72/600/600"
+  },
+  {
+    "id": 73,
+    "sku": "SKU-SHO-0073",
+    "name": "Nike Shoe Model 73",
+    "description": "High quality shoes for everyday use.",
+    "category": "Shoes",
+    "brand": "Nike",
+    "price": 98736,
+    "stock": 134,
+    "rating": 4.6,
+    "discount": 58,
+    "is_available": true,
+    "tags": [
+      "shoes",
+      "nike",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product73/600/600"
+  },
+  {
+    "id": 74,
+    "sku": "SKU-WAT-0074",
+    "name": "Casio Watche Model 74",
+    "description": "High quality watches for everyday use.",
+    "category": "Watches",
+    "brand": "Casio",
+    "price": 84548,
+    "stock": 167,
+    "rating": 3.7,
+    "discount": 4,
+    "is_available": true,
+    "tags": [
+      "watches",
+      "casio",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product74/600/600"
+  },
+  {
+    "id": 75,
+    "sku": "SKU-SHO-0075",
+    "name": "Nike Shoe Model 75",
+    "description": "High quality shoes for everyday use.",
+    "category": "Shoes",
+    "brand": "Nike",
+    "price": 106592,
+    "stock": 20,
+    "rating": 5.0,
+    "discount": 27,
+    "is_available": true,
+    "tags": [
+      "shoes",
+      "nike",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product75/600/600"
+  },
+  {
+    "id": 76,
+    "sku": "SKU-FUR-0076",
+    "name": "IKEA Furniture Model 76",
+    "description": "High quality furniture for everyday use.",
+    "category": "Furniture",
+    "brand": "IKEA",
+    "price": 126112,
+    "stock": 44,
+    "rating": 4.8,
+    "discount": 43,
+    "is_available": true,
+    "tags": [
+      "furniture",
+      "ikea",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product76/600/600"
+  },
+  {
+    "id": 77,
+    "sku": "SKU-WAT-0077",
+    "name": "Casio Watche Model 77",
+    "description": "High quality watches for everyday use.",
+    "category": "Watches",
+    "brand": "Casio",
+    "price": 123963,
+    "stock": 196,
+    "rating": 4.7,
+    "discount": 10,
+    "is_available": true,
+    "tags": [
+      "watches",
+      "casio",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product77/600/600"
+  },
+  {
+    "id": 78,
+    "sku": "SKU-LAP-0078",
+    "name": "Dell Laptop Model 78",
+    "description": "High quality laptops for everyday use.",
+    "category": "Laptops",
+    "brand": "Dell",
+    "price": 52863,
+    "stock": 200,
+    "rating": 4.2,
+    "discount": 21,
+    "is_available": true,
+    "tags": [
+      "laptops",
+      "dell",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product78/600/600"
+  },
+  {
+    "id": 79,
+    "sku": "SKU-LAP-0079",
+    "name": "Dell Laptop Model 79",
+    "description": "High quality laptops for everyday use.",
+    "category": "Laptops",
+    "brand": "Dell",
+    "price": 53971,
+    "stock": 55,
+    "rating": 4.5,
+    "discount": 60,
+    "is_available": false,
+    "tags": [
+      "laptops",
+      "dell",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product79/600/600"
+  },
+  {
+    "id": 80,
+    "sku": "SKU-WAT-0080",
+    "name": "Casio Watche Model 80",
+    "description": "High quality watches for everyday use.",
+    "category": "Watches",
+    "brand": "Casio",
+    "price": 56574,
+    "stock": 26,
+    "rating": 3.8,
+    "discount": 44,
+    "is_available": true,
+    "tags": [
+      "watches",
+      "casio",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product80/600/600"
+  },
+  {
+    "id": 81,
+    "sku": "SKU-SHO-0081",
+    "name": "Nike Shoe Model 81",
+    "description": "High quality shoes for everyday use.",
+    "category": "Shoes",
+    "brand": "Nike",
+    "price": 23173,
+    "stock": 142,
+    "rating": 4.9,
+    "discount": 15,
+    "is_available": true,
+    "tags": [
+      "shoes",
+      "nike",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product81/600/600"
+  },
+  {
+    "id": 82,
+    "sku": "SKU-SMA-0082",
+    "name": "Apple Smartphone Model 82",
+    "description": "High quality smartphones for everyday use.",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "price": 139174,
+    "stock": 54,
+    "rating": 4.7,
+    "discount": 0,
+    "is_available": true,
+    "tags": [
+      "smartphones",
+      "apple",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product82/600/600"
+  },
+  {
+    "id": 83,
+    "sku": "SKU-SMA-0083",
+    "name": "Apple Smartphone Model 83",
+    "description": "High quality smartphones for everyday use.",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "price": 70809,
+    "stock": 125,
+    "rating": 4.0,
+    "discount": 15,
+    "is_available": true,
+    "tags": [
+      "smartphones",
+      "apple",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product83/600/600"
+  },
+  {
+    "id": 84,
+    "sku": "SKU-KIT-0084",
+    "name": "Prestige Kitchen Model 84",
+    "description": "High quality kitchen for everyday use.",
+    "category": "Kitchen",
+    "brand": "Prestige",
+    "price": 79102,
+    "stock": 185,
+    "rating": 3.8,
+    "discount": 20,
+    "is_available": true,
+    "tags": [
+      "kitchen",
+      "prestige",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product84/600/600"
+  },
+  {
+    "id": 85,
+    "sku": "SKU-SHO-0085",
+    "name": "Nike Shoe Model 85",
+    "description": "High quality shoes for everyday use.",
+    "category": "Shoes",
+    "brand": "Nike",
+    "price": 139187,
+    "stock": 181,
+    "rating": 3.9,
+    "discount": 46,
+    "is_available": false,
+    "tags": [
+      "shoes",
+      "nike",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product85/600/600"
+  },
+  {
+    "id": 86,
+    "sku": "SKU-WAT-0086",
+    "name": "Casio Watche Model 86",
+    "description": "High quality watches for everyday use.",
+    "category": "Watches",
+    "brand": "Casio",
+    "price": 120757,
+    "stock": 97,
+    "rating": 4.8,
+    "discount": 22,
+    "is_available": true,
+    "tags": [
+      "watches",
+      "casio",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product86/600/600"
+  },
+  {
+    "id": 87,
+    "sku": "SKU-GAM-0087",
+    "name": "Logitech Gaming Model 87",
+    "description": "High quality gaming for everyday use.",
+    "category": "Gaming",
+    "brand": "Logitech",
+    "price": 102507,
+    "stock": 180,
+    "rating": 4.0,
+    "discount": 12,
+    "is_available": false,
+    "tags": [
+      "gaming",
+      "logitech",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product87/600/600"
+  },
+  {
+    "id": 88,
+    "sku": "SKU-HEA-0088",
+    "name": "Sony Headphone Model 88",
+    "description": "High quality headphones for everyday use.",
+    "category": "Headphones",
+    "brand": "Sony",
+    "price": 59105,
+    "stock": 177,
+    "rating": 3.7,
+    "discount": 47,
+    "is_available": true,
+    "tags": [
+      "headphones",
+      "sony",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product88/600/600"
+  },
+  {
+    "id": 89,
+    "sku": "SKU-GAM-0089",
+    "name": "Logitech Gaming Model 89",
+    "description": "High quality gaming for everyday use.",
+    "category": "Gaming",
+    "brand": "Logitech",
+    "price": 14007,
+    "stock": 47,
+    "rating": 4.2,
+    "discount": 33,
+    "is_available": true,
+    "tags": [
+      "gaming",
+      "logitech",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product89/600/600"
+  },
+  {
+    "id": 90,
+    "sku": "SKU-BEA-0090",
+    "name": "L'Or\u00e9al Beauty Model 90",
+    "description": "High quality beauty for everyday use.",
+    "category": "Beauty",
+    "brand": "L'Or\u00e9al",
+    "price": 62111,
+    "stock": 48,
+    "rating": 3.7,
+    "discount": 8,
+    "is_available": true,
+    "tags": [
+      "beauty",
+      "lor\u00e9al",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product90/600/600"
+  },
+  {
+    "id": 91,
+    "sku": "SKU-SHO-0091",
+    "name": "Nike Shoe Model 91",
+    "description": "High quality shoes for everyday use.",
+    "category": "Shoes",
+    "brand": "Nike",
+    "price": 10280,
+    "stock": 4,
+    "rating": 4.4,
+    "discount": 60,
+    "is_available": false,
+    "tags": [
+      "shoes",
+      "nike",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product91/600/600"
+  },
+  {
+    "id": 92,
+    "sku": "SKU-FUR-0092",
+    "name": "IKEA Furniture Model 92",
+    "description": "High quality furniture for everyday use.",
+    "category": "Furniture",
+    "brand": "IKEA",
+    "price": 102743,
+    "stock": 128,
+    "rating": 3.9,
+    "discount": 43,
+    "is_available": false,
+    "tags": [
+      "furniture",
+      "ikea",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product92/600/600"
+  },
+  {
+    "id": 93,
+    "sku": "SKU-HEA-0093",
+    "name": "Sony Headphone Model 93",
+    "description": "High quality headphones for everyday use.",
+    "category": "Headphones",
+    "brand": "Sony",
+    "price": 33001,
+    "stock": 151,
+    "rating": 3.6,
+    "discount": 2,
+    "is_available": true,
+    "tags": [
+      "headphones",
+      "sony",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product93/600/600"
+  },
+  {
+    "id": 94,
+    "sku": "SKU-HEA-0094",
+    "name": "Sony Headphone Model 94",
+    "description": "High quality headphones for everyday use.",
+    "category": "Headphones",
+    "brand": "Sony",
+    "price": 91681,
+    "stock": 71,
+    "rating": 4.3,
+    "discount": 44,
+    "is_available": true,
+    "tags": [
+      "headphones",
+      "sony",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product94/600/600"
+  },
+  {
+    "id": 95,
+    "sku": "SKU-WAT-0095",
+    "name": "Casio Watche Model 95",
+    "description": "High quality watches for everyday use.",
+    "category": "Watches",
+    "brand": "Casio",
+    "price": 119959,
+    "stock": 55,
+    "rating": 3.6,
+    "discount": 1,
+    "is_available": true,
+    "tags": [
+      "watches",
+      "casio",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product95/600/600"
+  },
+  {
+    "id": 96,
+    "sku": "SKU-SHO-0096",
+    "name": "Nike Shoe Model 96",
+    "description": "High quality shoes for everyday use.",
+    "category": "Shoes",
+    "brand": "Nike",
+    "price": 78715,
+    "stock": 117,
+    "rating": 4.4,
+    "discount": 2,
+    "is_available": true,
+    "tags": [
+      "shoes",
+      "nike",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product96/600/600"
+  },
+  {
+    "id": 97,
+    "sku": "SKU-BOO-0097",
+    "name": "Penguin Book Model 97",
+    "description": "High quality books for everyday use.",
+    "category": "Books",
+    "brand": "Penguin",
+    "price": 110434,
+    "stock": 165,
+    "rating": 4.6,
+    "discount": 22,
+    "is_available": true,
+    "tags": [
+      "books",
+      "penguin",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product97/600/600"
+  },
+  {
+    "id": 98,
+    "sku": "SKU-LAP-0098",
+    "name": "Dell Laptop Model 98",
+    "description": "High quality laptops for everyday use.",
+    "category": "Laptops",
+    "brand": "Dell",
+    "price": 32699,
+    "stock": 104,
+    "rating": 4.4,
+    "discount": 32,
+    "is_available": true,
+    "tags": [
+      "laptops",
+      "dell",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product98/600/600"
+  },
+  {
+    "id": 99,
+    "sku": "SKU-HEA-0099",
+    "name": "Sony Headphone Model 99",
+    "description": "High quality headphones for everyday use.",
+    "category": "Headphones",
+    "brand": "Sony",
+    "price": 62742,
+    "stock": 132,
+    "rating": 4.5,
+    "discount": 24,
+    "is_available": true,
+    "tags": [
+      "headphones",
+      "sony",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product99/600/600"
+  },
+  {
+    "id": 100,
+    "sku": "SKU-SMA-0100",
+    "name": "Apple Smartphone Model 100",
+    "description": "High quality smartphones for everyday use.",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "price": 144071,
+    "stock": 132,
+    "rating": 4.1,
+    "discount": 30,
+    "is_available": true,
+    "tags": [
+      "smartphones",
+      "apple",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product100/600/600"
+  },
+  {
+    "id": 101,
+    "sku": "SKU-SHO-0101",
+    "name": "Nike Shoe Model 101",
+    "description": "High quality shoes for everyday use.",
+    "category": "Shoes",
+    "brand": "Nike",
+    "price": 54515,
+    "stock": 105,
+    "rating": 3.7,
+    "discount": 40,
+    "is_available": true,
+    "tags": [
+      "shoes",
+      "nike",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product101/600/600"
+  },
+  {
+    "id": 102,
+    "sku": "SKU-SMA-0102",
+    "name": "Apple Smartphone Model 102",
+    "description": "High quality smartphones for everyday use.",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "price": 136529,
+    "stock": 49,
+    "rating": 4.4,
+    "discount": 59,
+    "is_available": false,
+    "tags": [
+      "smartphones",
+      "apple",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product102/600/600"
+  },
+  {
+    "id": 103,
+    "sku": "SKU-SMA-0103",
+    "name": "Apple Smartphone Model 103",
+    "description": "High quality smartphones for everyday use.",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "price": 63729,
+    "stock": 122,
+    "rating": 4.4,
+    "discount": 29,
+    "is_available": true,
+    "tags": [
+      "smartphones",
+      "apple",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product103/600/600"
+  },
+  {
+    "id": 104,
+    "sku": "SKU-GAM-0104",
+    "name": "Logitech Gaming Model 104",
+    "description": "High quality gaming for everyday use.",
+    "category": "Gaming",
+    "brand": "Logitech",
+    "price": 67184,
+    "stock": 6,
+    "rating": 4.2,
+    "discount": 15,
+    "is_available": false,
+    "tags": [
+      "gaming",
+      "logitech",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product104/600/600"
+  },
+  {
+    "id": 105,
+    "sku": "SKU-KIT-0105",
+    "name": "Prestige Kitchen Model 105",
+    "description": "High quality kitchen for everyday use.",
+    "category": "Kitchen",
+    "brand": "Prestige",
+    "price": 69640,
+    "stock": 103,
+    "rating": 4.1,
+    "discount": 32,
+    "is_available": false,
+    "tags": [
+      "kitchen",
+      "prestige",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product105/600/600"
+  },
+  {
+    "id": 106,
+    "sku": "SKU-SMA-0106",
+    "name": "Apple Smartphone Model 106",
+    "description": "High quality smartphones for everyday use.",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "price": 121602,
+    "stock": 160,
+    "rating": 4.6,
+    "discount": 40,
+    "is_available": true,
+    "tags": [
+      "smartphones",
+      "apple",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product106/600/600"
+  },
+  {
+    "id": 107,
+    "sku": "SKU-BEA-0107",
+    "name": "L'Or\u00e9al Beauty Model 107",
+    "description": "High quality beauty for everyday use.",
+    "category": "Beauty",
+    "brand": "L'Or\u00e9al",
+    "price": 14543,
+    "stock": 119,
+    "rating": 3.8,
+    "discount": 5,
+    "is_available": true,
+    "tags": [
+      "beauty",
+      "lor\u00e9al",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product107/600/600"
+  },
+  {
+    "id": 108,
+    "sku": "SKU-GAM-0108",
+    "name": "Logitech Gaming Model 108",
+    "description": "High quality gaming for everyday use.",
+    "category": "Gaming",
+    "brand": "Logitech",
+    "price": 78634,
+    "stock": 71,
+    "rating": 4.4,
+    "discount": 25,
+    "is_available": true,
+    "tags": [
+      "gaming",
+      "logitech",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product108/600/600"
+  },
+  {
+    "id": 109,
+    "sku": "SKU-HEA-0109",
+    "name": "Sony Headphone Model 109",
+    "description": "High quality headphones for everyday use.",
+    "category": "Headphones",
+    "brand": "Sony",
+    "price": 94915,
+    "stock": 151,
+    "rating": 4.4,
+    "discount": 29,
+    "is_available": true,
+    "tags": [
+      "headphones",
+      "sony",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product109/600/600"
+  },
+  {
+    "id": 110,
+    "sku": "SKU-FUR-0110",
+    "name": "IKEA Furniture Model 110",
+    "description": "High quality furniture for everyday use.",
+    "category": "Furniture",
+    "brand": "IKEA",
+    "price": 81357,
+    "stock": 81,
+    "rating": 4.5,
+    "discount": 52,
+    "is_available": true,
+    "tags": [
+      "furniture",
+      "ikea",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product110/600/600"
+  },
+  {
+    "id": 111,
+    "sku": "SKU-SMA-0111",
+    "name": "Apple Smartphone Model 111",
+    "description": "High quality smartphones for everyday use.",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "price": 13699,
+    "stock": 113,
+    "rating": 5.0,
+    "discount": 0,
+    "is_available": true,
+    "tags": [
+      "smartphones",
+      "apple",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product111/600/600"
+  },
+  {
+    "id": 112,
+    "sku": "SKU-HEA-0112",
+    "name": "Sony Headphone Model 112",
+    "description": "High quality headphones for everyday use.",
+    "category": "Headphones",
+    "brand": "Sony",
+    "price": 110550,
+    "stock": 129,
+    "rating": 4.8,
+    "discount": 4,
+    "is_available": false,
+    "tags": [
+      "headphones",
+      "sony",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product112/600/600"
+  },
+  {
+    "id": 113,
+    "sku": "SKU-KIT-0113",
+    "name": "Prestige Kitchen Model 113",
+    "description": "High quality kitchen for everyday use.",
+    "category": "Kitchen",
+    "brand": "Prestige",
+    "price": 38216,
+    "stock": 42,
+    "rating": 4.9,
+    "discount": 19,
+    "is_available": true,
+    "tags": [
+      "kitchen",
+      "prestige",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product113/600/600"
+  },
+  {
+    "id": 114,
+    "sku": "SKU-WAT-0114",
+    "name": "Casio Watche Model 114",
+    "description": "High quality watches for everyday use.",
+    "category": "Watches",
+    "brand": "Casio",
+    "price": 110679,
+    "stock": 66,
+    "rating": 4.8,
+    "discount": 42,
+    "is_available": true,
+    "tags": [
+      "watches",
+      "casio",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product114/600/600"
+  },
+  {
+    "id": 115,
+    "sku": "SKU-WAT-0115",
+    "name": "Casio Watche Model 115",
+    "description": "High quality watches for everyday use.",
+    "category": "Watches",
+    "brand": "Casio",
+    "price": 101676,
+    "stock": 126,
+    "rating": 4.6,
+    "discount": 29,
+    "is_available": true,
+    "tags": [
+      "watches",
+      "casio",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product115/600/600"
+  },
+  {
+    "id": 116,
+    "sku": "SKU-LAP-0116",
+    "name": "Dell Laptop Model 116",
+    "description": "High quality laptops for everyday use.",
+    "category": "Laptops",
+    "brand": "Dell",
+    "price": 79824,
+    "stock": 6,
+    "rating": 4.2,
+    "discount": 54,
+    "is_available": true,
+    "tags": [
+      "laptops",
+      "dell",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product116/600/600"
+  },
+  {
+    "id": 117,
+    "sku": "SKU-FUR-0117",
+    "name": "IKEA Furniture Model 117",
+    "description": "High quality furniture for everyday use.",
+    "category": "Furniture",
+    "brand": "IKEA",
+    "price": 52020,
+    "stock": 56,
+    "rating": 3.9,
+    "discount": 54,
+    "is_available": false,
+    "tags": [
+      "furniture",
+      "ikea",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product117/600/600"
+  },
+  {
+    "id": 118,
+    "sku": "SKU-SMA-0118",
+    "name": "Apple Smartphone Model 118",
+    "description": "High quality smartphones for everyday use.",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "price": 43692,
+    "stock": 136,
+    "rating": 4.0,
+    "discount": 17,
+    "is_available": true,
+    "tags": [
+      "smartphones",
+      "apple",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product118/600/600"
+  },
+  {
+    "id": 119,
+    "sku": "SKU-GAM-0119",
+    "name": "Logitech Gaming Model 119",
+    "description": "High quality gaming for everyday use.",
+    "category": "Gaming",
+    "brand": "Logitech",
+    "price": 77355,
+    "stock": 55,
+    "rating": 4.9,
+    "discount": 12,
+    "is_available": false,
+    "tags": [
+      "gaming",
+      "logitech",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product119/600/600"
+  },
+  {
+    "id": 120,
+    "sku": "SKU-LAP-0120",
+    "name": "Dell Laptop Model 120",
+    "description": "High quality laptops for everyday use.",
+    "category": "Laptops",
+    "brand": "Dell",
+    "price": 58106,
+    "stock": 144,
+    "rating": 4.6,
+    "discount": 56,
+    "is_available": true,
+    "tags": [
+      "laptops",
+      "dell",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product120/600/600"
+  },
+  {
+    "id": 121,
+    "sku": "SKU-HEA-0121",
+    "name": "Sony Headphone Model 121",
+    "description": "High quality headphones for everyday use.",
+    "category": "Headphones",
+    "brand": "Sony",
+    "price": 46570,
+    "stock": 46,
+    "rating": 4.0,
+    "discount": 37,
+    "is_available": false,
+    "tags": [
+      "headphones",
+      "sony",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product121/600/600"
+  },
+  {
+    "id": 122,
+    "sku": "SKU-WAT-0122",
+    "name": "Casio Watche Model 122",
+    "description": "High quality watches for everyday use.",
+    "category": "Watches",
+    "brand": "Casio",
+    "price": 84006,
+    "stock": 122,
+    "rating": 4.4,
+    "discount": 6,
+    "is_available": true,
+    "tags": [
+      "watches",
+      "casio",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product122/600/600"
+  },
+  {
+    "id": 123,
+    "sku": "SKU-SHO-0123",
+    "name": "Nike Shoe Model 123",
+    "description": "High quality shoes for everyday use.",
+    "category": "Shoes",
+    "brand": "Nike",
+    "price": 63923,
+    "stock": 161,
+    "rating": 3.9,
+    "discount": 52,
+    "is_available": true,
+    "tags": [
+      "shoes",
+      "nike",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product123/600/600"
+  },
+  {
+    "id": 124,
+    "sku": "SKU-BEA-0124",
+    "name": "L'Or\u00e9al Beauty Model 124",
+    "description": "High quality beauty for everyday use.",
+    "category": "Beauty",
+    "brand": "L'Or\u00e9al",
+    "price": 96706,
+    "stock": 127,
+    "rating": 3.6,
+    "discount": 24,
+    "is_available": true,
+    "tags": [
+      "beauty",
+      "lor\u00e9al",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product124/600/600"
+  },
+  {
+    "id": 125,
+    "sku": "SKU-BOO-0125",
+    "name": "Penguin Book Model 125",
+    "description": "High quality books for everyday use.",
+    "category": "Books",
+    "brand": "Penguin",
+    "price": 55530,
+    "stock": 84,
+    "rating": 3.7,
+    "discount": 35,
+    "is_available": true,
+    "tags": [
+      "books",
+      "penguin",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product125/600/600"
+  },
+  {
+    "id": 126,
+    "sku": "SKU-KIT-0126",
+    "name": "Prestige Kitchen Model 126",
+    "description": "High quality kitchen for everyday use.",
+    "category": "Kitchen",
+    "brand": "Prestige",
+    "price": 48340,
+    "stock": 184,
+    "rating": 4.8,
+    "discount": 46,
+    "is_available": true,
+    "tags": [
+      "kitchen",
+      "prestige",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product126/600/600"
+  },
+  {
+    "id": 127,
+    "sku": "SKU-GAM-0127",
+    "name": "Logitech Gaming Model 127",
+    "description": "High quality gaming for everyday use.",
+    "category": "Gaming",
+    "brand": "Logitech",
+    "price": 117491,
+    "stock": 157,
+    "rating": 4.0,
+    "discount": 49,
+    "is_available": true,
+    "tags": [
+      "gaming",
+      "logitech",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product127/600/600"
+  },
+  {
+    "id": 128,
+    "sku": "SKU-WAT-0128",
+    "name": "Casio Watche Model 128",
+    "description": "High quality watches for everyday use.",
+    "category": "Watches",
+    "brand": "Casio",
+    "price": 77253,
+    "stock": 103,
+    "rating": 4.2,
+    "discount": 43,
+    "is_available": false,
+    "tags": [
+      "watches",
+      "casio",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product128/600/600"
+  },
+  {
+    "id": 129,
+    "sku": "SKU-GAM-0129",
+    "name": "Logitech Gaming Model 129",
+    "description": "High quality gaming for everyday use.",
+    "category": "Gaming",
+    "brand": "Logitech",
+    "price": 123039,
+    "stock": 187,
+    "rating": 3.8,
+    "discount": 48,
+    "is_available": false,
+    "tags": [
+      "gaming",
+      "logitech",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product129/600/600"
+  },
+  {
+    "id": 130,
+    "sku": "SKU-KIT-0130",
+    "name": "Prestige Kitchen Model 130",
+    "description": "High quality kitchen for everyday use.",
+    "category": "Kitchen",
+    "brand": "Prestige",
+    "price": 137930,
+    "stock": 80,
+    "rating": 4.9,
+    "discount": 50,
+    "is_available": true,
+    "tags": [
+      "kitchen",
+      "prestige",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product130/600/600"
+  },
+  {
+    "id": 131,
+    "sku": "SKU-BEA-0131",
+    "name": "L'Or\u00e9al Beauty Model 131",
+    "description": "High quality beauty for everyday use.",
+    "category": "Beauty",
+    "brand": "L'Or\u00e9al",
+    "price": 2054,
+    "stock": 16,
+    "rating": 4.3,
+    "discount": 34,
+    "is_available": false,
+    "tags": [
+      "beauty",
+      "lor\u00e9al",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product131/600/600"
+  },
+  {
+    "id": 132,
+    "sku": "SKU-FUR-0132",
+    "name": "IKEA Furniture Model 132",
+    "description": "High quality furniture for everyday use.",
+    "category": "Furniture",
+    "brand": "IKEA",
+    "price": 142644,
+    "stock": 191,
+    "rating": 4.2,
+    "discount": 8,
+    "is_available": true,
+    "tags": [
+      "furniture",
+      "ikea",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product132/600/600"
+  },
+  {
+    "id": 133,
+    "sku": "SKU-BOO-0133",
+    "name": "Penguin Book Model 133",
+    "description": "High quality books for everyday use.",
+    "category": "Books",
+    "brand": "Penguin",
+    "price": 39888,
+    "stock": 171,
+    "rating": 4.8,
+    "discount": 19,
+    "is_available": true,
+    "tags": [
+      "books",
+      "penguin",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product133/600/600"
+  },
+  {
+    "id": 134,
+    "sku": "SKU-GAM-0134",
+    "name": "Logitech Gaming Model 134",
+    "description": "High quality gaming for everyday use.",
+    "category": "Gaming",
+    "brand": "Logitech",
+    "price": 29276,
+    "stock": 77,
+    "rating": 4.5,
+    "discount": 28,
+    "is_available": false,
+    "tags": [
+      "gaming",
+      "logitech",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product134/600/600"
+  },
+  {
+    "id": 135,
+    "sku": "SKU-FUR-0135",
+    "name": "IKEA Furniture Model 135",
+    "description": "High quality furniture for everyday use.",
+    "category": "Furniture",
+    "brand": "IKEA",
+    "price": 78644,
+    "stock": 199,
+    "rating": 4.0,
+    "discount": 0,
+    "is_available": true,
+    "tags": [
+      "furniture",
+      "ikea",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product135/600/600"
+  },
+  {
+    "id": 136,
+    "sku": "SKU-LAP-0136",
+    "name": "Dell Laptop Model 136",
+    "description": "High quality laptops for everyday use.",
+    "category": "Laptops",
+    "brand": "Dell",
+    "price": 34464,
+    "stock": 53,
+    "rating": 4.9,
+    "discount": 1,
+    "is_available": true,
+    "tags": [
+      "laptops",
+      "dell",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product136/600/600"
+  },
+  {
+    "id": 137,
+    "sku": "SKU-HEA-0137",
+    "name": "Sony Headphone Model 137",
+    "description": "High quality headphones for everyday use.",
+    "category": "Headphones",
+    "brand": "Sony",
+    "price": 83715,
+    "stock": 65,
+    "rating": 4.2,
+    "discount": 28,
+    "is_available": false,
+    "tags": [
+      "headphones",
+      "sony",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product137/600/600"
+  },
+  {
+    "id": 138,
+    "sku": "SKU-HEA-0138",
+    "name": "Sony Headphone Model 138",
+    "description": "High quality headphones for everyday use.",
+    "category": "Headphones",
+    "brand": "Sony",
+    "price": 104743,
+    "stock": 158,
+    "rating": 4.5,
+    "discount": 40,
+    "is_available": true,
+    "tags": [
+      "headphones",
+      "sony",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product138/600/600"
+  },
+  {
+    "id": 139,
+    "sku": "SKU-HEA-0139",
+    "name": "Sony Headphone Model 139",
+    "description": "High quality headphones for everyday use.",
+    "category": "Headphones",
+    "brand": "Sony",
+    "price": 130878,
+    "stock": 25,
+    "rating": 4.6,
+    "discount": 49,
+    "is_available": false,
+    "tags": [
+      "headphones",
+      "sony",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product139/600/600"
+  },
+  {
+    "id": 140,
+    "sku": "SKU-SMA-0140",
+    "name": "Apple Smartphone Model 140",
+    "description": "High quality smartphones for everyday use.",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "price": 84170,
+    "stock": 196,
+    "rating": 4.7,
+    "discount": 45,
+    "is_available": true,
+    "tags": [
+      "smartphones",
+      "apple",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product140/600/600"
+  },
+  {
+    "id": 141,
+    "sku": "SKU-KIT-0141",
+    "name": "Prestige Kitchen Model 141",
+    "description": "High quality kitchen for everyday use.",
+    "category": "Kitchen",
+    "brand": "Prestige",
+    "price": 30121,
+    "stock": 90,
+    "rating": 4.9,
+    "discount": 19,
+    "is_available": true,
+    "tags": [
+      "kitchen",
+      "prestige",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product141/600/600"
+  },
+  {
+    "id": 142,
+    "sku": "SKU-WAT-0142",
+    "name": "Casio Watche Model 142",
+    "description": "High quality watches for everyday use.",
+    "category": "Watches",
+    "brand": "Casio",
+    "price": 8460,
+    "stock": 86,
+    "rating": 4.9,
+    "discount": 32,
+    "is_available": false,
+    "tags": [
+      "watches",
+      "casio",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product142/600/600"
+  },
+  {
+    "id": 143,
+    "sku": "SKU-SMA-0143",
+    "name": "Apple Smartphone Model 143",
+    "description": "High quality smartphones for everyday use.",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "price": 143509,
+    "stock": 110,
+    "rating": 4.3,
+    "discount": 2,
+    "is_available": true,
+    "tags": [
+      "smartphones",
+      "apple",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product143/600/600"
+  },
+  {
+    "id": 144,
+    "sku": "SKU-FUR-0144",
+    "name": "IKEA Furniture Model 144",
+    "description": "High quality furniture for everyday use.",
+    "category": "Furniture",
+    "brand": "IKEA",
+    "price": 125931,
+    "stock": 83,
+    "rating": 4.1,
+    "discount": 9,
+    "is_available": false,
+    "tags": [
+      "furniture",
+      "ikea",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product144/600/600"
+  },
+  {
+    "id": 145,
+    "sku": "SKU-GAM-0145",
+    "name": "Logitech Gaming Model 145",
+    "description": "High quality gaming for everyday use.",
+    "category": "Gaming",
+    "brand": "Logitech",
+    "price": 105085,
+    "stock": 93,
+    "rating": 4.5,
+    "discount": 26,
+    "is_available": true,
+    "tags": [
+      "gaming",
+      "logitech",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product145/600/600"
+  },
+  {
+    "id": 146,
+    "sku": "SKU-SHO-0146",
+    "name": "Nike Shoe Model 146",
+    "description": "High quality shoes for everyday use.",
+    "category": "Shoes",
+    "brand": "Nike",
+    "price": 145891,
+    "stock": 40,
+    "rating": 3.8,
+    "discount": 13,
+    "is_available": true,
+    "tags": [
+      "shoes",
+      "nike",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product146/600/600"
+  },
+  {
+    "id": 147,
+    "sku": "SKU-SMA-0147",
+    "name": "Apple Smartphone Model 147",
+    "description": "High quality smartphones for everyday use.",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "price": 86924,
+    "stock": 171,
+    "rating": 4.2,
+    "discount": 19,
+    "is_available": false,
+    "tags": [
+      "smartphones",
+      "apple",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product147/600/600"
+  },
+  {
+    "id": 148,
+    "sku": "SKU-BEA-0148",
+    "name": "L'Or\u00e9al Beauty Model 148",
+    "description": "High quality beauty for everyday use.",
+    "category": "Beauty",
+    "brand": "L'Or\u00e9al",
+    "price": 106754,
+    "stock": 144,
+    "rating": 5.0,
+    "discount": 47,
+    "is_available": true,
+    "tags": [
+      "beauty",
+      "lor\u00e9al",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product148/600/600"
+  },
+  {
+    "id": 149,
+    "sku": "SKU-FUR-0149",
+    "name": "IKEA Furniture Model 149",
+    "description": "High quality furniture for everyday use.",
+    "category": "Furniture",
+    "brand": "IKEA",
+    "price": 135265,
+    "stock": 192,
+    "rating": 3.6,
+    "discount": 9,
+    "is_available": true,
+    "tags": [
+      "furniture",
+      "ikea",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product149/600/600"
+  },
+  {
+    "id": 150,
+    "sku": "SKU-GAM-0150",
+    "name": "Logitech Gaming Model 150",
+    "description": "High quality gaming for everyday use.",
+    "category": "Gaming",
+    "brand": "Logitech",
+    "price": 59824,
+    "stock": 148,
+    "rating": 4.0,
+    "discount": 37,
+    "is_available": true,
+    "tags": [
+      "gaming",
+      "logitech",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product150/600/600"
+  },
+  {
+    "id": 151,
+    "sku": "SKU-GAM-0151",
+    "name": "Logitech Gaming Model 151",
+    "description": "High quality gaming for everyday use.",
+    "category": "Gaming",
+    "brand": "Logitech",
+    "price": 35615,
+    "stock": 22,
+    "rating": 4.1,
+    "discount": 26,
+    "is_available": true,
+    "tags": [
+      "gaming",
+      "logitech",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product151/600/600"
+  },
+  {
+    "id": 152,
+    "sku": "SKU-SHO-0152",
+    "name": "Nike Shoe Model 152",
+    "description": "High quality shoes for everyday use.",
+    "category": "Shoes",
+    "brand": "Nike",
+    "price": 109805,
+    "stock": 33,
+    "rating": 3.9,
+    "discount": 12,
+    "is_available": true,
+    "tags": [
+      "shoes",
+      "nike",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product152/600/600"
+  },
+  {
+    "id": 153,
+    "sku": "SKU-WAT-0153",
+    "name": "Casio Watche Model 153",
+    "description": "High quality watches for everyday use.",
+    "category": "Watches",
+    "brand": "Casio",
+    "price": 91703,
+    "stock": 17,
+    "rating": 4.7,
+    "discount": 32,
+    "is_available": true,
+    "tags": [
+      "watches",
+      "casio",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product153/600/600"
+  },
+  {
+    "id": 154,
+    "sku": "SKU-SMA-0154",
+    "name": "Apple Smartphone Model 154",
+    "description": "High quality smartphones for everyday use.",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "price": 118205,
+    "stock": 197,
+    "rating": 4.2,
+    "discount": 50,
+    "is_available": true,
+    "tags": [
+      "smartphones",
+      "apple",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product154/600/600"
+  },
+  {
+    "id": 155,
+    "sku": "SKU-HEA-0155",
+    "name": "Sony Headphone Model 155",
+    "description": "High quality headphones for everyday use.",
+    "category": "Headphones",
+    "brand": "Sony",
+    "price": 146539,
+    "stock": 183,
+    "rating": 3.7,
+    "discount": 19,
+    "is_available": false,
+    "tags": [
+      "headphones",
+      "sony",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product155/600/600"
+  },
+  {
+    "id": 156,
+    "sku": "SKU-SHO-0156",
+    "name": "Nike Shoe Model 156",
+    "description": "High quality shoes for everyday use.",
+    "category": "Shoes",
+    "brand": "Nike",
+    "price": 62004,
+    "stock": 54,
+    "rating": 4.7,
+    "discount": 23,
+    "is_available": true,
+    "tags": [
+      "shoes",
+      "nike",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product156/600/600"
+  },
+  {
+    "id": 157,
+    "sku": "SKU-BEA-0157",
+    "name": "L'Or\u00e9al Beauty Model 157",
+    "description": "High quality beauty for everyday use.",
+    "category": "Beauty",
+    "brand": "L'Or\u00e9al",
+    "price": 105340,
+    "stock": 115,
+    "rating": 4.3,
+    "discount": 34,
+    "is_available": true,
+    "tags": [
+      "beauty",
+      "lor\u00e9al",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product157/600/600"
+  },
+  {
+    "id": 158,
+    "sku": "SKU-KIT-0158",
+    "name": "Prestige Kitchen Model 158",
+    "description": "High quality kitchen for everyday use.",
+    "category": "Kitchen",
+    "brand": "Prestige",
+    "price": 35693,
+    "stock": 111,
+    "rating": 4.7,
+    "discount": 48,
+    "is_available": true,
+    "tags": [
+      "kitchen",
+      "prestige",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product158/600/600"
+  },
+  {
+    "id": 159,
+    "sku": "SKU-BEA-0159",
+    "name": "L'Or\u00e9al Beauty Model 159",
+    "description": "High quality beauty for everyday use.",
+    "category": "Beauty",
+    "brand": "L'Or\u00e9al",
+    "price": 147351,
+    "stock": 11,
+    "rating": 3.7,
+    "discount": 37,
+    "is_available": true,
+    "tags": [
+      "beauty",
+      "lor\u00e9al",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product159/600/600"
+  },
+  {
+    "id": 160,
+    "sku": "SKU-SHO-0160",
+    "name": "Nike Shoe Model 160",
+    "description": "High quality shoes for everyday use.",
+    "category": "Shoes",
+    "brand": "Nike",
+    "price": 88750,
+    "stock": 66,
+    "rating": 4.4,
+    "discount": 18,
+    "is_available": true,
+    "tags": [
+      "shoes",
+      "nike",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product160/600/600"
+  },
+  {
+    "id": 161,
+    "sku": "SKU-SHO-0161",
+    "name": "Nike Shoe Model 161",
+    "description": "High quality shoes for everyday use.",
+    "category": "Shoes",
+    "brand": "Nike",
+    "price": 64278,
+    "stock": 96,
+    "rating": 3.8,
+    "discount": 17,
+    "is_available": false,
+    "tags": [
+      "shoes",
+      "nike",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product161/600/600"
+  },
+  {
+    "id": 162,
+    "sku": "SKU-HEA-0162",
+    "name": "Sony Headphone Model 162",
+    "description": "High quality headphones for everyday use.",
+    "category": "Headphones",
+    "brand": "Sony",
+    "price": 96770,
+    "stock": 63,
+    "rating": 4.1,
+    "discount": 57,
+    "is_available": true,
+    "tags": [
+      "headphones",
+      "sony",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product162/600/600"
+  },
+  {
+    "id": 163,
+    "sku": "SKU-WAT-0163",
+    "name": "Casio Watche Model 163",
+    "description": "High quality watches for everyday use.",
+    "category": "Watches",
+    "brand": "Casio",
+    "price": 72581,
+    "stock": 93,
+    "rating": 5.0,
+    "discount": 34,
+    "is_available": true,
+    "tags": [
+      "watches",
+      "casio",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product163/600/600"
+  },
+  {
+    "id": 164,
+    "sku": "SKU-HEA-0164",
+    "name": "Sony Headphone Model 164",
+    "description": "High quality headphones for everyday use.",
+    "category": "Headphones",
+    "brand": "Sony",
+    "price": 8477,
+    "stock": 196,
+    "rating": 4.3,
+    "discount": 18,
+    "is_available": true,
+    "tags": [
+      "headphones",
+      "sony",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product164/600/600"
+  },
+  {
+    "id": 165,
+    "sku": "SKU-KIT-0165",
+    "name": "Prestige Kitchen Model 165",
+    "description": "High quality kitchen for everyday use.",
+    "category": "Kitchen",
+    "brand": "Prestige",
+    "price": 9708,
+    "stock": 115,
+    "rating": 4.1,
+    "discount": 45,
+    "is_available": true,
+    "tags": [
+      "kitchen",
+      "prestige",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product165/600/600"
+  },
+  {
+    "id": 166,
+    "sku": "SKU-GAM-0166",
+    "name": "Logitech Gaming Model 166",
+    "description": "High quality gaming for everyday use.",
+    "category": "Gaming",
+    "brand": "Logitech",
+    "price": 25920,
+    "stock": 59,
+    "rating": 3.8,
+    "discount": 31,
+    "is_available": true,
+    "tags": [
+      "gaming",
+      "logitech",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product166/600/600"
+  },
+  {
+    "id": 167,
+    "sku": "SKU-LAP-0167",
+    "name": "Dell Laptop Model 167",
+    "description": "High quality laptops for everyday use.",
+    "category": "Laptops",
+    "brand": "Dell",
+    "price": 46330,
+    "stock": 77,
+    "rating": 4.7,
+    "discount": 2,
+    "is_available": false,
+    "tags": [
+      "laptops",
+      "dell",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product167/600/600"
+  },
+  {
+    "id": 168,
+    "sku": "SKU-GAM-0168",
+    "name": "Logitech Gaming Model 168",
+    "description": "High quality gaming for everyday use.",
+    "category": "Gaming",
+    "brand": "Logitech",
+    "price": 47983,
+    "stock": 162,
+    "rating": 4.8,
+    "discount": 0,
+    "is_available": false,
+    "tags": [
+      "gaming",
+      "logitech",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product168/600/600"
+  },
+  {
+    "id": 169,
+    "sku": "SKU-BEA-0169",
+    "name": "L'Or\u00e9al Beauty Model 169",
+    "description": "High quality beauty for everyday use.",
+    "category": "Beauty",
+    "brand": "L'Or\u00e9al",
+    "price": 37660,
+    "stock": 75,
+    "rating": 4.9,
+    "discount": 11,
+    "is_available": false,
+    "tags": [
+      "beauty",
+      "lor\u00e9al",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product169/600/600"
+  },
+  {
+    "id": 170,
+    "sku": "SKU-BOO-0170",
+    "name": "Penguin Book Model 170",
+    "description": "High quality books for everyday use.",
+    "category": "Books",
+    "brand": "Penguin",
+    "price": 21535,
+    "stock": 93,
+    "rating": 3.8,
+    "discount": 24,
+    "is_available": false,
+    "tags": [
+      "books",
+      "penguin",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product170/600/600"
+  },
+  {
+    "id": 171,
+    "sku": "SKU-SMA-0171",
+    "name": "Apple Smartphone Model 171",
+    "description": "High quality smartphones for everyday use.",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "price": 87514,
+    "stock": 121,
+    "rating": 4.8,
+    "discount": 51,
+    "is_available": true,
+    "tags": [
+      "smartphones",
+      "apple",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product171/600/600"
+  },
+  {
+    "id": 172,
+    "sku": "SKU-FUR-0172",
+    "name": "IKEA Furniture Model 172",
+    "description": "High quality furniture for everyday use.",
+    "category": "Furniture",
+    "brand": "IKEA",
+    "price": 143242,
+    "stock": 199,
+    "rating": 3.9,
+    "discount": 14,
+    "is_available": false,
+    "tags": [
+      "furniture",
+      "ikea",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product172/600/600"
+  },
+  {
+    "id": 173,
+    "sku": "SKU-BOO-0173",
+    "name": "Penguin Book Model 173",
+    "description": "High quality books for everyday use.",
+    "category": "Books",
+    "brand": "Penguin",
+    "price": 64975,
+    "stock": 103,
+    "rating": 4.9,
+    "discount": 5,
+    "is_available": true,
+    "tags": [
+      "books",
+      "penguin",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product173/600/600"
+  },
+  {
+    "id": 174,
+    "sku": "SKU-FUR-0174",
+    "name": "IKEA Furniture Model 174",
+    "description": "High quality furniture for everyday use.",
+    "category": "Furniture",
+    "brand": "IKEA",
+    "price": 111265,
+    "stock": 102,
+    "rating": 4.4,
+    "discount": 53,
+    "is_available": false,
+    "tags": [
+      "furniture",
+      "ikea",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product174/600/600"
+  },
+  {
+    "id": 175,
+    "sku": "SKU-HEA-0175",
+    "name": "Sony Headphone Model 175",
+    "description": "High quality headphones for everyday use.",
+    "category": "Headphones",
+    "brand": "Sony",
+    "price": 1290,
+    "stock": 101,
+    "rating": 4.7,
+    "discount": 22,
+    "is_available": true,
+    "tags": [
+      "headphones",
+      "sony",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product175/600/600"
+  },
+  {
+    "id": 176,
+    "sku": "SKU-HEA-0176",
+    "name": "Sony Headphone Model 176",
+    "description": "High quality headphones for everyday use.",
+    "category": "Headphones",
+    "brand": "Sony",
+    "price": 89643,
+    "stock": 60,
+    "rating": 4.8,
+    "discount": 58,
+    "is_available": true,
+    "tags": [
+      "headphones",
+      "sony",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product176/600/600"
+  },
+  {
+    "id": 177,
+    "sku": "SKU-HEA-0177",
+    "name": "Sony Headphone Model 177",
+    "description": "High quality headphones for everyday use.",
+    "category": "Headphones",
+    "brand": "Sony",
+    "price": 118966,
+    "stock": 197,
+    "rating": 3.7,
+    "discount": 39,
+    "is_available": true,
+    "tags": [
+      "headphones",
+      "sony",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product177/600/600"
+  },
+  {
+    "id": 178,
+    "sku": "SKU-SHO-0178",
+    "name": "Nike Shoe Model 178",
+    "description": "High quality shoes for everyday use.",
+    "category": "Shoes",
+    "brand": "Nike",
+    "price": 36744,
+    "stock": 53,
+    "rating": 4.5,
+    "discount": 42,
+    "is_available": true,
+    "tags": [
+      "shoes",
+      "nike",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product178/600/600"
+  },
+  {
+    "id": 179,
+    "sku": "SKU-SHO-0179",
+    "name": "Nike Shoe Model 179",
+    "description": "High quality shoes for everyday use.",
+    "category": "Shoes",
+    "brand": "Nike",
+    "price": 89978,
+    "stock": 132,
+    "rating": 4.8,
+    "discount": 27,
+    "is_available": false,
+    "tags": [
+      "shoes",
+      "nike",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product179/600/600"
+  },
+  {
+    "id": 180,
+    "sku": "SKU-SHO-0180",
+    "name": "Nike Shoe Model 180",
+    "description": "High quality shoes for everyday use.",
+    "category": "Shoes",
+    "brand": "Nike",
+    "price": 28350,
+    "stock": 151,
+    "rating": 3.7,
+    "discount": 58,
+    "is_available": true,
+    "tags": [
+      "shoes",
+      "nike",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product180/600/600"
+  },
+  {
+    "id": 181,
+    "sku": "SKU-HEA-0181",
+    "name": "Sony Headphone Model 181",
+    "description": "High quality headphones for everyday use.",
+    "category": "Headphones",
+    "brand": "Sony",
+    "price": 46159,
+    "stock": 49,
+    "rating": 4.3,
+    "discount": 37,
+    "is_available": true,
+    "tags": [
+      "headphones",
+      "sony",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product181/600/600"
+  },
+  {
+    "id": 182,
+    "sku": "SKU-SMA-0182",
+    "name": "Apple Smartphone Model 182",
+    "description": "High quality smartphones for everyday use.",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "price": 66859,
+    "stock": 151,
+    "rating": 4.5,
+    "discount": 2,
+    "is_available": false,
+    "tags": [
+      "smartphones",
+      "apple",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product182/600/600"
+  },
+  {
+    "id": 183,
+    "sku": "SKU-SHO-0183",
+    "name": "Nike Shoe Model 183",
+    "description": "High quality shoes for everyday use.",
+    "category": "Shoes",
+    "brand": "Nike",
+    "price": 91114,
+    "stock": 16,
+    "rating": 4.9,
+    "discount": 42,
+    "is_available": false,
+    "tags": [
+      "shoes",
+      "nike",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product183/600/600"
+  },
+  {
+    "id": 184,
+    "sku": "SKU-SHO-0184",
+    "name": "Nike Shoe Model 184",
+    "description": "High quality shoes for everyday use.",
+    "category": "Shoes",
+    "brand": "Nike",
+    "price": 141811,
+    "stock": 118,
+    "rating": 3.6,
+    "discount": 13,
+    "is_available": true,
+    "tags": [
+      "shoes",
+      "nike",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product184/600/600"
+  },
+  {
+    "id": 185,
+    "sku": "SKU-SHO-0185",
+    "name": "Nike Shoe Model 185",
+    "description": "High quality shoes for everyday use.",
+    "category": "Shoes",
+    "brand": "Nike",
+    "price": 132059,
+    "stock": 10,
+    "rating": 3.8,
+    "discount": 9,
+    "is_available": false,
+    "tags": [
+      "shoes",
+      "nike",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product185/600/600"
+  },
+  {
+    "id": 186,
+    "sku": "SKU-FUR-0186",
+    "name": "IKEA Furniture Model 186",
+    "description": "High quality furniture for everyday use.",
+    "category": "Furniture",
+    "brand": "IKEA",
+    "price": 28624,
+    "stock": 44,
+    "rating": 3.5,
+    "discount": 22,
+    "is_available": true,
+    "tags": [
+      "furniture",
+      "ikea",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product186/600/600"
+  },
+  {
+    "id": 187,
+    "sku": "SKU-KIT-0187",
+    "name": "Prestige Kitchen Model 187",
+    "description": "High quality kitchen for everyday use.",
+    "category": "Kitchen",
+    "brand": "Prestige",
+    "price": 112537,
+    "stock": 12,
+    "rating": 4.0,
+    "discount": 46,
+    "is_available": true,
+    "tags": [
+      "kitchen",
+      "prestige",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product187/600/600"
+  },
+  {
+    "id": 188,
+    "sku": "SKU-GAM-0188",
+    "name": "Logitech Gaming Model 188",
+    "description": "High quality gaming for everyday use.",
+    "category": "Gaming",
+    "brand": "Logitech",
+    "price": 106832,
+    "stock": 178,
+    "rating": 4.5,
+    "discount": 11,
+    "is_available": true,
+    "tags": [
+      "gaming",
+      "logitech",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product188/600/600"
+  },
+  {
+    "id": 189,
+    "sku": "SKU-GAM-0189",
+    "name": "Logitech Gaming Model 189",
+    "description": "High quality gaming for everyday use.",
+    "category": "Gaming",
+    "brand": "Logitech",
+    "price": 132933,
+    "stock": 93,
+    "rating": 3.7,
+    "discount": 4,
+    "is_available": true,
+    "tags": [
+      "gaming",
+      "logitech",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product189/600/600"
+  },
+  {
+    "id": 190,
+    "sku": "SKU-BEA-0190",
+    "name": "L'Or\u00e9al Beauty Model 190",
+    "description": "High quality beauty for everyday use.",
+    "category": "Beauty",
+    "brand": "L'Or\u00e9al",
+    "price": 47536,
+    "stock": 72,
+    "rating": 4.5,
+    "discount": 24,
+    "is_available": true,
+    "tags": [
+      "beauty",
+      "lor\u00e9al",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product190/600/600"
+  },
+  {
+    "id": 191,
+    "sku": "SKU-HEA-0191",
+    "name": "Sony Headphone Model 191",
+    "description": "High quality headphones for everyday use.",
+    "category": "Headphones",
+    "brand": "Sony",
+    "price": 73393,
+    "stock": 144,
+    "rating": 5.0,
+    "discount": 21,
+    "is_available": true,
+    "tags": [
+      "headphones",
+      "sony",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product191/600/600"
+  },
+  {
+    "id": 192,
+    "sku": "SKU-HEA-0192",
+    "name": "Sony Headphone Model 192",
+    "description": "High quality headphones for everyday use.",
+    "category": "Headphones",
+    "brand": "Sony",
+    "price": 29453,
+    "stock": 26,
+    "rating": 4.8,
+    "discount": 0,
+    "is_available": false,
+    "tags": [
+      "headphones",
+      "sony",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product192/600/600"
+  },
+  {
+    "id": 193,
+    "sku": "SKU-KIT-0193",
+    "name": "Prestige Kitchen Model 193",
+    "description": "High quality kitchen for everyday use.",
+    "category": "Kitchen",
+    "brand": "Prestige",
+    "price": 40392,
+    "stock": 193,
+    "rating": 4.0,
+    "discount": 47,
+    "is_available": true,
+    "tags": [
+      "kitchen",
+      "prestige",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product193/600/600"
+  },
+  {
+    "id": 194,
+    "sku": "SKU-BEA-0194",
+    "name": "L'Or\u00e9al Beauty Model 194",
+    "description": "High quality beauty for everyday use.",
+    "category": "Beauty",
+    "brand": "L'Or\u00e9al",
+    "price": 102869,
+    "stock": 10,
+    "rating": 4.5,
+    "discount": 54,
+    "is_available": true,
+    "tags": [
+      "beauty",
+      "lor\u00e9al",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product194/600/600"
+  },
+  {
+    "id": 195,
+    "sku": "SKU-FUR-0195",
+    "name": "IKEA Furniture Model 195",
+    "description": "High quality furniture for everyday use.",
+    "category": "Furniture",
+    "brand": "IKEA",
+    "price": 74686,
+    "stock": 88,
+    "rating": 4.4,
+    "discount": 56,
+    "is_available": true,
+    "tags": [
+      "furniture",
+      "ikea",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product195/600/600"
+  },
+  {
+    "id": 196,
+    "sku": "SKU-FUR-0196",
+    "name": "IKEA Furniture Model 196",
+    "description": "High quality furniture for everyday use.",
+    "category": "Furniture",
+    "brand": "IKEA",
+    "price": 21496,
+    "stock": 9,
+    "rating": 3.6,
+    "discount": 41,
+    "is_available": true,
+    "tags": [
+      "furniture",
+      "ikea",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product196/600/600"
+  },
+  {
+    "id": 197,
+    "sku": "SKU-GAM-0197",
+    "name": "Logitech Gaming Model 197",
+    "description": "High quality gaming for everyday use.",
+    "category": "Gaming",
+    "brand": "Logitech",
+    "price": 125351,
+    "stock": 159,
+    "rating": 4.9,
+    "discount": 51,
+    "is_available": false,
+    "tags": [
+      "gaming",
+      "logitech",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product197/600/600"
+  },
+  {
+    "id": 198,
+    "sku": "SKU-SMA-0198",
+    "name": "Apple Smartphone Model 198",
+    "description": "High quality smartphones for everyday use.",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "price": 110729,
+    "stock": 34,
+    "rating": 3.6,
+    "discount": 56,
+    "is_available": true,
+    "tags": [
+      "smartphones",
+      "apple",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product198/600/600"
+  },
+  {
+    "id": 199,
+    "sku": "SKU-WAT-0199",
+    "name": "Casio Watche Model 199",
+    "description": "High quality watches for everyday use.",
+    "category": "Watches",
+    "brand": "Casio",
+    "price": 82373,
+    "stock": 0,
+    "rating": 5.0,
+    "discount": 50,
+    "is_available": true,
+    "tags": [
+      "watches",
+      "casio",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product199/600/600"
+  },
+  {
+    "id": 200,
+    "sku": "SKU-HEA-0200",
+    "name": "Sony Headphone Model 200",
+    "description": "High quality headphones for everyday use.",
+    "category": "Headphones",
+    "brand": "Sony",
+    "price": 9975,
+    "stock": 34,
+    "rating": 4.2,
+    "discount": 37,
+    "is_available": true,
+    "tags": [
+      "headphones",
+      "sony",
+      "sale"
+    ],
+    "image_url": "https://picsum.photos/seed/product200/600/600"
+  }
+]

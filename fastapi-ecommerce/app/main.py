@@ -1,8 +1,8 @@
 from fastapi import FastAPI, HTTPException, Query, Path
-from app.services.products import get_all_products, add_product
+from app.services.products import get_all_products, add_product, save_product, remove_product
 from app.schema.product import Product
 import json
-from uuid import uuid4
+from uuid import uuid4, UUID
 from datetime import datetime
 
 app = FastAPI()
@@ -97,10 +97,20 @@ def create_product(product: Product):
     product_dict = product.model_dump(mode="json")
     product_dict["id"] = int(uuid4())
     product_dict["created_at"] = datetime.utcnow().isoformat() + "Z"
-    return product.model_dump(mode="json")
+
+    # return product.model_dump(mode="json")
 
     try:
-        add_product(product_dict)
+        save_product = add_product(product_dict)
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
-    return product.model_dump(mode="json")
+    return save_product
+
+@app.delete("/products/{products_id}")
+def delete_product(products_id: int = Path(..., description="Product ID", example=1)):
+    
+    try:
+        res = remove_product(int(products_id))
+        return res
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=str(e))
