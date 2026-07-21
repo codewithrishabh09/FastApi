@@ -41,3 +41,20 @@ def remove_product(id:int) -> None:
             return {"messgae": "Product deleted sucessfully", "data": deleted} 
     raise ValueError("Product not found.")
     # for idx, p in enumerate(product)
+
+    def change_product(products_id: int, update_data: dict):
+        products = get_all_products()
+        for index, product in enumerate(products):
+            for key, value in update_data.items():
+                if value is None:
+                    continue
+                if isinstance(value, dict) and isinstance(product.get(key), dict):
+                    product[key].update(value)
+                else:
+                    product[key] = value
+
+        products[index] = product
+        save_product(product)
+        return product
+    
+    raise ValueError("Product not found")

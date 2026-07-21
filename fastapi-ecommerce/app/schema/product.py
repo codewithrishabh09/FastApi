@@ -3,6 +3,8 @@ from typing import Annotated, Literal, Optional, List
 from uuid import UUID, uuid4
 from datetime import datetime
 
+
+# CREATE PYDANTIC
 class DimensionCM(BaseModel):
     length: Annotated[float, Field(gt=0, strict=True, description="Length in cm")]
     width: Annotated[float, Field(gt=0, strict=True, description="Width in cm")]
@@ -164,6 +166,82 @@ class Product(BaseModel):
         return round(self.price *(1 - self.discount_percent /100), 2)
 
     
+    @computed_field
+    @property
+    def volume_cm3(self) -> float:
+        d = self.dimension_cm
+        return round(d.length * d.width * d.height, 2)
+
+
+# UPDATE PYDENTAIC
+class DimensionCMUpdate(BaseModel):
+    length: Optional[float] = Field(gt=0)
+    width: Optional[float] = Field(gt=0)
+    height: Optional[float] = Field(gt=0)
+
+class SellerUpdate(BaseModel):
+    name: Optional[str] = Field(min_length=2, max_length=60)
+    email: Optional[EmailStr]
+    website: Optional[AnyUrl]
+
+    @field_validator("email", mode="after")
+    @classmethod
+    def validate_seller_email_domain(cls, value: EmailStr):
+        allowed_domains = {
+            "hpworld.in",
+            "example.com",
+            "lenovostore.in",
+            "applestore.in",
+            "sonycenterindia.in"
+        }
+    
+    domain = str(value).split("@")[-1].lower()
+        if domain not in allowed_domains:
+            raise ValueError(f"Seller email domain not allowed: {domain}")
+        return value
+
+class ProductUpdate(BaseModel):
+    name: Optional[str] = Field(min_length=3, max_length=80)
+    description: Optional[str] = Field(max_length=200)
+    category: Optional[str]
+    brand: Optional[str]
+
+    price: Optional[float] = Field(gt=0)
+
+    currency: Optional[Literal["INR"]]
+
+    discount_percent: Optional[int] = Field(gt=0)
+
+    stock: Optional[int] = Field(gt=0)
+
+    is_avaliable: Optional[bool] = Field(description="is product active.")
+
+    rating: Optional[int] = Field(gt=0, le=5)
+
+    tags: Optional[str] = Field(max_length=20)
+
+    image_url: Optional[List[AnyUrl]]
+
+    dimension_cm: Optional[DimensionCMUpdate]
+
+    seller: Optional[SellerUpdate]
+
+    @model_validator(mode="after")
+    @classmethod
+    def alidate_business_rules(cls,model:"Product"):
+        if model.stock == 0 and model.is_avaliable is True:
+            raise ValueError("If stock is 0 is active mut be false.")
+
+        if model.discount_percent > 0 and model.rating == 0:
+            raise ValueError("Discount product must have a rating (rating != 0)")
+        return model 
+
+    @computed_field
+    @property
+    def final_prices(self) -> float:
+        return round(self.price *(1 - self.discount_percent /100), 2)
+
+
     @computed_field
     @property
     def volume_cm3(self) -> float:
