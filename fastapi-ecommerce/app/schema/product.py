@@ -194,8 +194,7 @@ class SellerUpdate(BaseModel):
             "applestore.in",
             "sonycenterindia.in"
         }
-    
-    domain = str(value).split("@")[-1].lower()
+        domain = str(value).split("@")[-1].lower()
         if domain not in allowed_domains:
             raise ValueError(f"Seller email domain not allowed: {domain}")
         return value
@@ -218,7 +217,7 @@ class ProductUpdate(BaseModel):
 
     rating: Optional[int] = Field(gt=0, le=5)
 
-    tags: Optional[str] = Field(max_length=20)
+    tags: Optional[List[str]] = Field(max_length=20)
 
     image_url: Optional[List[AnyUrl]]
 

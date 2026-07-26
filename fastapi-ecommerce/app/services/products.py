@@ -3,7 +3,7 @@ from pathlib import Path
 from typing import List, Dict
 
 # products.py -> services/ -> app/ -> fastapi-ecommerce/ -> data/products.json
-data_file = Path(__file__).resolve().parent.parent.parent / "data" / "dummy.json"
+data_file = Path(__file__).resolve().parent.parent.parent / "data" / "product.json"
 
 
 # load products when user refersh the page then load the fresh & updated data
@@ -42,9 +42,10 @@ def remove_product(id:int) -> None:
     raise ValueError("Product not found.")
     # for idx, p in enumerate(product)
 
-    def change_product(products_id: int, update_data: dict):
-        products = get_all_products()
-        for index, product in enumerate(products):
+def change_product(products_id: int, update_data: dict) -> dict:
+    products = get_all_products()
+    for index, product in enumerate(products):
+        if product["id"] == products_id:
             for key, value in update_data.items():
                 if value is None:
                     continue
@@ -53,8 +54,8 @@ def remove_product(id:int) -> None:
                 else:
                     product[key] = value
 
-        products[index] = product
-        save_product(product)
-        return product
-    
+            products[index] = product
+            save_product(products)
+            return product
+
     raise ValueError("Product not found")

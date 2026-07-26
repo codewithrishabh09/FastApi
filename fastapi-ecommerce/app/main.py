@@ -1,22 +1,43 @@
-from fastapi import FastAPI, HTTPException, Query, Path
-from app.services.products import get_all_products, add_product, remove_product, update_product, change_product
+from dotenv import load_dotenv
+import os
+from fastapi import FastAPI, HTTPException, Query, Path, Request, Depends
+from app.services.products import get_all_products, add_product, remove_product, change_product
 from app.schema.product import Product, ProductUpdate
+from fastapi.responses import JSONResponse
 import json
 from uuid import uuid4, UUID
 from datetime import datetime
+from typing import List, Dict
 
+load_dotenv()
 app = FastAPI()
 
-# using fastapi for learn backend------->>>>>CURD Oprations 
-# GET--> Read
-# POST--> Create
-# 
-# uses of GET method for read----->>>>>>
-@app.get("/")
-def root():
-    return {"message": "Welcome to the FastAPI E-commerce API"}
 
-@app.get("/products")
+# @app.middleware("http")
+# async def lifecycle(request: Request, call_next):
+#     print("Before Request")
+#     response = await call_next(request)
+#     print("After request")
+#     return response
+
+def common_logic():
+    return "hello coder"
+
+# uses of GET method for read----->>>>>>
+@app.get("/", response_model=dict)
+def root(dep=Depends(common_logic)):
+    DB_PATH = os.getenv("BASE_URL")  
+    # return {"messgae": "Welcome to FastAPI.", "dependency": dep, "data_path": DB_PATH}
+    return JSONResponse(
+        status_code=200,
+        content={
+            "message": "Welcome to FastAPI",
+            "dependency": dep,
+            "data_path": DB_PATH,
+        },
+    )
+
+@app.get("/products", response_model=Dict)
 def list_products(name: str = Query(
     default=None,
     min_length=2,
@@ -117,11 +138,11 @@ def delete_product(products_id: int = Path(..., description="Product ID", exampl
 
 
 @app.put("/products/{products_id}")
-def update_product(products_id: int = Path(..., description="Product ID", example=1), payload: ProductUpdate):
+def update_product(products_id: int = Path(..., description="Product ID", example=1), payload: ProductUpdate=...,):
 
     try:
-        updated = update_product(products_id, payload.model_dump(mode="json", exclude_unset=True))
-        return updated
+        update_product = change_product(products_id, payload.model_dump(mode="json", exclude_unset=True))
+        return update_product
     except ValueError as e:
         raise HTTPException(status_code=404, detail=str(e))
 
