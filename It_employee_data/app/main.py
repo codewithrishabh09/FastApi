@@ -1,8 +1,10 @@
-from fastapi import FastAPI, HTTPException, Query, Path, Depends
-from app.services.employees import get_all_data
+from fastapi import FastAPI, HTTPException, Query, Path, Depends, Body
+from app.services.employees import get_all_data, add_employee, remove_employee, update_employee_by_id
+from app.schema.data_loader import Employee
 from fastapi.responses import JSONResponse
 from typing import List, Dict
 import json
+from datetime import datetime
 
 app = FastAPI()
 def common_logic():
@@ -87,3 +89,35 @@ def Get_Employees_By_ID(employee_id: int = Path(..., ge=1, description="Employee
     if not employee:
         raise HTTPException(status_code=404, detail=f"Employee with id {employee_id} not found")
     return employee
+
+@app.post("/Employee", status_code=201)
+def Add_New_Employee(employee: Employee):
+    employee_dict = employee.model_dump(mode="json")
+    employee_dict["id"] = int()
+    employee_dict["Added_Employee"] = datetime.utcnow().isoformat() + "z"
+
+    try:
+        save_employee = add_employee(employee_dict)
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+
+@app.delete("/Employee/{employee_id}")
+def deleted(employee_id: int = Path(..., ge=1, description="Employee ID to delete")):
+    try:
+        deleted = remove_employee(employee_id)
+        return {"message": f"Employee {employee_id} Fired Successfully", "removed_employee": deleted}
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+        
+@app.put("/Employee/{employee_id}")
+def update_full_employee(
+    employee_id: int = Path(..., ge=1, description="Employee ID to update"),
+    employee: Employee = Body(...)):
+    try:
+        employee_dict = employee.model_dump(mode="json")
+        updated = update_employee_by_id(employee_id, employee_dict)
+        return {"message": f"Employee {employee_id} updated Successfully", "updated_employee": updated}
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+
+    

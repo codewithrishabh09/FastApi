@@ -59,10 +59,10 @@
   {
     "id": 4,
     "sku": "SKU-BEA-0004",
-    "name": "L'Or\u00e9al Beauty Model 4",
+    "name": "L'Oréal Beauty Model 4",
     "description": "High quality beauty for everyday use.",
     "category": "Beauty",
-    "brand": "L'Or\u00e9al",
+    "brand": "L'Oréal",
     "price": 111471,
     "stock": 110,
     "rating": 4.1,
@@ -70,7 +70,7 @@
     "is_available": false,
     "tags": [
       "beauty",
-      "lor\u00e9al",
+      "loréal",
       "sale"
     ],
     "image_url": "https://picsum.photos/seed/product4/600/600"
@@ -112,25 +112,6 @@
       "sale"
     ],
     "image_url": "https://picsum.photos/seed/product6/600/600"
-  },
-  {
-    "id": 7,
-    "sku": "SKU-LAP-0007",
-    "name": "Dell Laptop Model 7",
-    "description": "High quality laptops for everyday use.",
-    "category": "Laptops",
-    "brand": "Dell",
-    "price": 137349,
-    "stock": 133,
-    "rating": 4.4,
-    "discount": 5,
-    "is_available": true,
-    "tags": [
-      "laptops",
-      "dell",
-      "sale"
-    ],
-    "image_url": "https://picsum.photos/seed/product7/600/600"
   },
   {
     "id": 8,
@@ -287,10 +268,10 @@
   {
     "id": 16,
     "sku": "SKU-BEA-0016",
-    "name": "L'Or\u00e9al Beauty Model 16",
+    "name": "L'Oréal Beauty Model 16",
     "description": "High quality beauty for everyday use.",
     "category": "Beauty",
-    "brand": "L'Or\u00e9al",
+    "brand": "L'Oréal",
     "price": 88483,
     "stock": 173,
     "rating": 4.5,
@@ -298,7 +279,7 @@
     "is_available": false,
     "tags": [
       "beauty",
-      "lor\u00e9al",
+      "loréal",
       "sale"
     ],
     "image_url": "https://picsum.photos/seed/product16/600/600"
@@ -401,10 +382,10 @@
   {
     "id": 22,
     "sku": "SKU-BEA-0022",
-    "name": "L'Or\u00e9al Beauty Model 22",
+    "name": "L'Oréal Beauty Model 22",
     "description": "High quality beauty for everyday use.",
     "category": "Beauty",
-    "brand": "L'Or\u00e9al",
+    "brand": "L'Oréal",
     "price": 62060,
     "stock": 67,
     "rating": 4.1,
@@ -412,7 +393,7 @@
     "is_available": true,
     "tags": [
       "beauty",
-      "lor\u00e9al",
+      "loréal",
       "sale"
     ],
     "image_url": "https://picsum.photos/seed/product22/600/600"
@@ -439,10 +420,10 @@
   {
     "id": 24,
     "sku": "SKU-BEA-0024",
-    "name": "L'Or\u00e9al Beauty Model 24",
+    "name": "L'Oréal Beauty Model 24",
     "description": "High quality beauty for everyday use.",
     "category": "Beauty",
-    "brand": "L'Or\u00e9al",
+    "brand": "L'Oréal",
     "price": 64527,
     "stock": 135,
     "rating": 3.9,
@@ -450,7 +431,7 @@
     "is_available": true,
     "tags": [
       "beauty",
-      "lor\u00e9al",
+      "loréal",
       "sale"
     ],
     "image_url": "https://picsum.photos/seed/product24/600/600"
@@ -572,10 +553,10 @@
   {
     "id": 31,
     "sku": "SKU-BEA-0031",
-    "name": "L'Or\u00e9al Beauty Model 31",
+    "name": "L'Oréal Beauty Model 31",
     "description": "High quality beauty for everyday use.",
     "category": "Beauty",
-    "brand": "L'Or\u00e9al",
+    "brand": "L'Oréal",
     "price": 66513,
     "stock": 16,
     "rating": 4.1,
@@ -583,7 +564,7 @@
     "is_available": true,
     "tags": [
       "beauty",
-      "lor\u00e9al",
+      "loréal",
       "sale"
     ],
     "image_url": "https://picsum.photos/seed/product31/600/600"
@@ -629,10 +610,10 @@
   {
     "id": 34,
     "sku": "SKU-BEA-0034",
-    "name": "L'Or\u00e9al Beauty Model 34",
+    "name": "L'Oréal Beauty Model 34",
     "description": "High quality beauty for everyday use.",
     "category": "Beauty",
-    "brand": "L'Or\u00e9al",
+    "brand": "L'Oréal",
     "price": 88844,
     "stock": 62,
     "rating": 4.7,
@@ -640,7 +621,7 @@
     "is_available": true,
     "tags": [
       "beauty",
-      "lor\u00e9al",
+      "loréal",
       "sale"
     ],
     "image_url": "https://picsum.photos/seed/product34/600/600"
@@ -800,10 +781,10 @@
   {
     "id": 43,
     "sku": "SKU-BEA-0043",
-    "name": "L'Or\u00e9al Beauty Model 43",
+    "name": "L'Oréal Beauty Model 43",
     "description": "High quality beauty for everyday use.",
     "category": "Beauty",
-    "brand": "L'Or\u00e9al",
+    "brand": "L'Oréal",
     "price": 117881,
     "stock": 78,
     "rating": 3.8,
@@ -811,7 +792,7 @@
     "is_available": true,
     "tags": [
       "beauty",
-      "lor\u00e9al",
+      "loréal",
       "sale"
     ],
     "image_url": "https://picsum.photos/seed/product43/600/600"
@@ -1009,10 +990,10 @@
   {
     "id": 54,
     "sku": "SKU-BEA-0054",
-    "name": "L'Or\u00e9al Beauty Model 54",
+    "name": "L'Oréal Beauty Model 54",
     "description": "High quality beauty for everyday use.",
     "category": "Beauty",
-    "brand": "L'Or\u00e9al",
+    "brand": "L'Oréal",
     "price": 87330,
     "stock": 144,
     "rating": 3.8,
@@ -1020,7 +1001,7 @@
     "is_available": true,
     "tags": [
       "beauty",
-      "lor\u00e9al",
+      "loréal",
       "sale"
     ],
     "image_url": "https://picsum.photos/seed/product54/600/600"
@@ -1161,10 +1142,10 @@
   {
     "id": 62,
     "sku": "SKU-BEA-0062",
-    "name": "L'Or\u00e9al Beauty Model 62",
+    "name": "L'Oréal Beauty Model 62",
     "description": "High quality beauty for everyday use.",
     "category": "Beauty",
-    "brand": "L'Or\u00e9al",
+    "brand": "L'Oréal",
     "price": 124984,
     "stock": 74,
     "rating": 3.8,
@@ -1172,7 +1153,7 @@
     "is_available": false,
     "tags": [
       "beauty",
-      "lor\u00e9al",
+      "loréal",
       "sale"
     ],
     "image_url": "https://picsum.photos/seed/product62/600/600"
@@ -1693,10 +1674,10 @@
   {
     "id": 90,
     "sku": "SKU-BEA-0090",
-    "name": "L'Or\u00e9al Beauty Model 90",
+    "name": "L'Oréal Beauty Model 90",
     "description": "High quality beauty for everyday use.",
     "category": "Beauty",
-    "brand": "L'Or\u00e9al",
+    "brand": "L'Oréal",
     "price": 62111,
     "stock": 48,
     "rating": 3.7,
@@ -1704,7 +1685,7 @@
     "is_available": true,
     "tags": [
       "beauty",
-      "lor\u00e9al",
+      "loréal",
       "sale"
     ],
     "image_url": "https://picsum.photos/seed/product90/600/600"
@@ -2016,10 +1997,10 @@
   {
     "id": 107,
     "sku": "SKU-BEA-0107",
-    "name": "L'Or\u00e9al Beauty Model 107",
+    "name": "L'Oréal Beauty Model 107",
     "description": "High quality beauty for everyday use.",
     "category": "Beauty",
-    "brand": "L'Or\u00e9al",
+    "brand": "L'Oréal",
     "price": 14543,
     "stock": 119,
     "rating": 3.8,
@@ -2027,7 +2008,7 @@
     "is_available": true,
     "tags": [
       "beauty",
-      "lor\u00e9al",
+      "loréal",
       "sale"
     ],
     "image_url": "https://picsum.photos/seed/product107/600/600"
@@ -2339,10 +2320,10 @@
   {
     "id": 124,
     "sku": "SKU-BEA-0124",
-    "name": "L'Or\u00e9al Beauty Model 124",
+    "name": "L'Oréal Beauty Model 124",
     "description": "High quality beauty for everyday use.",
     "category": "Beauty",
-    "brand": "L'Or\u00e9al",
+    "brand": "L'Oréal",
     "price": 96706,
     "stock": 127,
     "rating": 3.6,
@@ -2350,7 +2331,7 @@
     "is_available": true,
     "tags": [
       "beauty",
-      "lor\u00e9al",
+      "loréal",
       "sale"
     ],
     "image_url": "https://picsum.photos/seed/product124/600/600"
@@ -2472,10 +2453,10 @@
   {
     "id": 131,
     "sku": "SKU-BEA-0131",
-    "name": "L'Or\u00e9al Beauty Model 131",
+    "name": "L'Oréal Beauty Model 131",
     "description": "High quality beauty for everyday use.",
     "category": "Beauty",
-    "brand": "L'Or\u00e9al",
+    "brand": "L'Oréal",
     "price": 2054,
     "stock": 16,
     "rating": 4.3,
@@ -2483,7 +2464,7 @@
     "is_available": false,
     "tags": [
       "beauty",
-      "lor\u00e9al",
+      "loréal",
       "sale"
     ],
     "image_url": "https://picsum.photos/seed/product131/600/600"
@@ -2795,10 +2776,10 @@
   {
     "id": 148,
     "sku": "SKU-BEA-0148",
-    "name": "L'Or\u00e9al Beauty Model 148",
+    "name": "L'Oréal Beauty Model 148",
     "description": "High quality beauty for everyday use.",
     "category": "Beauty",
-    "brand": "L'Or\u00e9al",
+    "brand": "L'Oréal",
     "price": 106754,
     "stock": 144,
     "rating": 5.0,
@@ -2806,7 +2787,7 @@
     "is_available": true,
     "tags": [
       "beauty",
-      "lor\u00e9al",
+      "loréal",
       "sale"
     ],
     "image_url": "https://picsum.photos/seed/product148/600/600"
@@ -2966,10 +2947,10 @@
   {
     "id": 157,
     "sku": "SKU-BEA-0157",
-    "name": "L'Or\u00e9al Beauty Model 157",
+    "name": "L'Oréal Beauty Model 157",
     "description": "High quality beauty for everyday use.",
     "category": "Beauty",
-    "brand": "L'Or\u00e9al",
+    "brand": "L'Oréal",
     "price": 105340,
     "stock": 115,
     "rating": 4.3,
@@ -2977,7 +2958,7 @@
     "is_available": true,
     "tags": [
       "beauty",
-      "lor\u00e9al",
+      "loréal",
       "sale"
     ],
     "image_url": "https://picsum.photos/seed/product157/600/600"
@@ -3004,10 +2985,10 @@
   {
     "id": 159,
     "sku": "SKU-BEA-0159",
-    "name": "L'Or\u00e9al Beauty Model 159",
+    "name": "L'Oréal Beauty Model 159",
     "description": "High quality beauty for everyday use.",
     "category": "Beauty",
-    "brand": "L'Or\u00e9al",
+    "brand": "L'Oréal",
     "price": 147351,
     "stock": 11,
     "rating": 3.7,
@@ -3015,7 +2996,7 @@
     "is_available": true,
     "tags": [
       "beauty",
-      "lor\u00e9al",
+      "loréal",
       "sale"
     ],
     "image_url": "https://picsum.photos/seed/product159/600/600"
@@ -3194,10 +3175,10 @@
   {
     "id": 169,
     "sku": "SKU-BEA-0169",
-    "name": "L'Or\u00e9al Beauty Model 169",
+    "name": "L'Oréal Beauty Model 169",
     "description": "High quality beauty for everyday use.",
     "category": "Beauty",
-    "brand": "L'Or\u00e9al",
+    "brand": "L'Oréal",
     "price": 37660,
     "stock": 75,
     "rating": 4.9,
@@ -3205,7 +3186,7 @@
     "is_available": false,
     "tags": [
       "beauty",
-      "lor\u00e9al",
+      "loréal",
       "sale"
     ],
     "image_url": "https://picsum.photos/seed/product169/600/600"
@@ -3593,10 +3574,10 @@
   {
     "id": 190,
     "sku": "SKU-BEA-0190",
-    "name": "L'Or\u00e9al Beauty Model 190",
+    "name": "L'Oréal Beauty Model 190",
     "description": "High quality beauty for everyday use.",
     "category": "Beauty",
-    "brand": "L'Or\u00e9al",
+    "brand": "L'Oréal",
     "price": 47536,
     "stock": 72,
     "rating": 4.5,
@@ -3604,7 +3585,7 @@
     "is_available": true,
     "tags": [
       "beauty",
-      "lor\u00e9al",
+      "loréal",
       "sale"
     ],
     "image_url": "https://picsum.photos/seed/product190/600/600"
@@ -3669,10 +3650,10 @@
   {
     "id": 194,
     "sku": "SKU-BEA-0194",
-    "name": "L'Or\u00e9al Beauty Model 194",
+    "name": "L'Oréal Beauty Model 194",
     "description": "High quality beauty for everyday use.",
     "category": "Beauty",
-    "brand": "L'Or\u00e9al",
+    "brand": "L'Oréal",
     "price": 102869,
     "stock": 10,
     "rating": 4.5,
@@ -3680,7 +3661,7 @@
     "is_available": true,
     "tags": [
       "beauty",
-      "lor\u00e9al",
+      "loréal",
       "sale"
     ],
     "image_url": "https://picsum.photos/seed/product194/600/600"

@@ -5,7 +5,7 @@ from typing import List, Dict
 # products.py -> services/ -> app/ -> fastapi-ecommerce/ -> data/products.json
 data_file = Path(__file__).resolve().parent.parent.parent / "data" / "product.json"
 
-
+0
 # load products when user refersh the page then load the fresh & updated data
 def load_products() -> List[Dict]:
     if not data_file.exists():
