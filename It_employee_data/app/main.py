@@ -100,6 +100,8 @@ def Add_New_Employee(employee: Employee):
         save_employee = add_employee(employee_dict)
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
+    
+    return {"message": "Employee added sucessfully", "employee": save_employee}
 
 @app.delete("/Employee/{employee_id}")
 def deleted(employee_id: int = Path(..., ge=1, description="Employee ID to delete")):

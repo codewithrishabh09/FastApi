@@ -4,6 +4,12 @@ from enum import Enum
 from datetime import date
 
 
+VALID_DEPARMENTS = [
+        "HR", "Engineering", "Sales", "Marketing", "Data Science",
+        "Finance", "Support", "Operations", "Legal", "IT",
+        "Product", "Design", "Data Science", "AI/ML", "DevOps"
+]
+
 class StatusEnum(str, Enum):
     active = "Active",
     inactive = "Inactive",
@@ -46,12 +52,12 @@ class Employee(BaseModel):
 
     @field_validator("email", mode="after")
     @classmethod
-    def validate_employee_email_domain(cls, value: EmailStr):
+    def validate_employee_email_domain(cls, value: EmailStr) -> EmailStr:
         allowed_domain = ["example.com", "gmail.com", "company.com"]
         domain = value.split("@")[-1].lower()
         if domain not in allowed_domain:
-            raise valueError(f"Employee email domain not allowed: {domain}")
-        return value
+            raise ValueError(f"Employee email domain not allowed: {domain}")
+        return value.lower()
 
     phone: Annotated[str,
     Field(
@@ -65,10 +71,19 @@ class Employee(BaseModel):
         min_length=3,
         max_length=30,
         title="Employee Department",
-        descripition="Enter employee depzrtment name.",
+        descripition="Enter employee department name.",
         example="Data Science",
     )
     ]
+
+    @field_validator("department", mode="after")
+    @classmethod
+    def validate_department(cls, value: str) -> str:
+        if value not in VALID_DEPARMENTS:
+            raise ValueError(f"Department '{value}', is not a recogized department")
+        return value.strip().title()
+
+    
     designation: Annotated[str,
     Field(
         min_length=2,
@@ -122,4 +137,7 @@ class Employee(BaseModel):
         example="Active",
     )
     ]
+
+
+   
     

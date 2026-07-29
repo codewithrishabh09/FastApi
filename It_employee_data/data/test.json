@@ -14,5 +14,37 @@
     "joining_date": "2022-06-15",
     "status": "Active",
     "Added_Employee": "2026-07-28T12:03:15.310726z"
+  },
+  {
+    "id": 3,
+    "first_name": "Rudra",
+    "last_name": "Yadav",
+    "email": "rudra.yadav5@example.com",
+    "phone": "9039640787",
+    "department": "Data Science",
+    "designation": "DevOps",
+    "salary": 450000,
+    "experience": 3,
+    "city": "Lucknow",
+    "state": "Jaipur",
+    "joining_date": "2022-06-15",
+    "status": "Active",
+    "Added_Employee": "2026-07-29T18:23:30.874625z"
+  },
+  {
+    "id": 4,
+    "first_name": "arun",
+    "last_name": "Yadav",
+    "email": "arun.yadav5@example.com",
+    "phone": "9039678407",
+    "department": "Data Science",
+    "designation": "DevOps",
+    "salary": 450000,
+    "experience": 3,
+    "city": "Lucknow",
+    "state": "Jaipur",
+    "joining_date": "2022-06-15",
+    "status": "Active",
+    "Added_Employee": "2026-07-29T18:47:28.263015z"
   }
 ]

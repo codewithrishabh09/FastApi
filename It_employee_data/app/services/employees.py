@@ -19,6 +19,13 @@ def save_employee_data(employee: List[Dict]) -> None:
 
 def add_employee(employee: Dict) -> Dict:
     employees = load_data()
+
+    if any(e["email"].lower() == employee["email"].lower() for e in employees):
+        raise ValueError(f"Employee with email '{employee['email']}' already exist.")
+
+    if any(e["phone"] == employee["phone"] for e in employees):
+        raise ValueError(f"Employee with phone '{employee['phone']}' already exist.")
+        
     new_id = max([e["id"] for e in employees], default=0) + 1
     employee["id"] =  new_id
     employees.append(employee)
