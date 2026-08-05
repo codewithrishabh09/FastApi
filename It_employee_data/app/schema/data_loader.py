@@ -1,14 +1,34 @@
-from pydantic import BaseModel, Field, EmailStr, field_validator
+from pydantic import BaseModel, Field, EmailStr, field_validator, model_validator
 from typing import Annotated
 from enum import Enum
 from datetime import date
 
 
 VALID_DEPARMENTS = [
-        "HR", "Engineering", "Sales", "Marketing", "Data Science",
-        "Finance", "Support", "Operations", "Legal", "IT",
-        "Product", "Design", "Data Science", "AI/ML", "DevOps"
+    "HR", "Engineering", "Sales", "Marketing", "Data Science",
+    "Finance", "Support", "Operations", "Legal", "IT",
+    "Product", "Design", "AI/ML", "DevOps"
 ]
+
+DEPARTMENT_DESIGNATION_MAP = {
+    "Engineering": ["Software Engineer", "DevOps", "Frontend Developer", "Team Lead", "Backend Developer"],
+    "HR": ["HR Executive", "Manager", "Team Lead"],
+    "Sales": ["Sales Executive", "Manager", "Team Lead"],
+    "Marketing": ["Marketing Executive", "Manager"],
+    "Data Science": ["Data Scientist", "ML Engineer", "DevOps"],
+    "Finance": ["Finance Executive", "Manager"],
+    "Support": ["Support Executive", "Team Lead"],
+    "IT": ["Software Engineer", "DevOps", "Support Executive"],
+}
+
+DESIGNATION_SALARY_RANGE = {
+    "Intern": (10000, 25000),
+    "Software Engineer": (30000, 80000),
+    "Senior Software Engineer": (60000, 150000),
+    "Team Lead": (80000, 200000),
+    "Manager": (100000, 300000),
+    "DevOps": (40000, 120000),
+}
 
 class StatusEnum(str, Enum):
     active = "Active",
@@ -93,14 +113,38 @@ class Employee(BaseModel):
         example="DevOps",
     )
     ]
+
+    @model_validator(mode="after")
+    def validate_designation_matches_department(self):
+        allowed_designations = DEPARTMENT_DESIGNATION_MAP.get(self.department)
+        if allowed_designations and self.designation not in allowed_designations:
+            raise ValueError(
+                f"Designation '{self.designation}' is not valid for department '{self.department}'. "
+                f"Allowed designations: {allowed_designations}"
+            )
+        return self
+
     salary: Annotated[int,
     Field(
         gt=0,
         le=10000000,
-        descripition="Enter employee/anual salary.",
+        descripition="Enter employee/annual salary.",
         example=450000,
     )
     ]
+
+    @model_validator(mode="after")
+    def validate_salary_for_desiganation(self):
+        salary_range = DESIGNATION_SALARY_RANGE.get(self.designation)
+        if salary_range:
+            min_salary, max_salary = salary_range
+            if not (min_salary <= max_salary <= max_salary):
+                raise ValueError(
+                    f"Salary {self.salary} is out of range for designation '{self.designation}'."
+                    f"Expected range: {min_salary} - {max_salary}"
+                )
+        return self
+
     experience: Annotated[int,
     Field(
         gt=0,
