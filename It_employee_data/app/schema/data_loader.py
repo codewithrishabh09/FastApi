@@ -30,6 +30,19 @@ DESIGNATION_SALARY_RANGE = {
     "DevOps": (40000, 120000),
 }
 
+CITY_STATE_MAP = {
+    "Lucknow": "Uttar Pradesh",
+    "Jaipur": "Rajasthan",
+    "Delhi": "Delhi",
+    "Mumbai": "Maharashtra",
+    "Bangalore": "Karnataka",
+    "Chennai": "Tamil Nadu",
+    "Kolkata": "West Bengal",
+    "Hyderabad": "Telangana",
+    "Pune": "Maharashtra",
+    "Ahmedabad": "Gujarat",
+}
+
 class StatusEnum(str, Enum):
     active = "Active",
     inactive = "Inactive",
@@ -169,6 +182,17 @@ class Employee(BaseModel):
         example="Jaipur",
     )
     ]
+
+    @model_validator(mode="after")
+    def validate_city_state_match(self):
+        expcted_state = CITY_STATE_MAP.get(self.city)
+        if expcted_state and expcted_state != self.state:
+            raise ValueError(
+                f"City '{self.city}' is in {expcted_state}, but the state is '{self.state}'."
+                f"Expected state: {expcted_state}"
+            )
+        return self
+
     joining_date: Annotated[date,
     Field(
         descripition="Date when employee joining the compnay.",

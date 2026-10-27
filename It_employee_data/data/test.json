@@ -49,19 +49,18 @@
   },
   {
     "id": 5,
-    "first_name": "Varun",
+    "first_name": "Ayush",
     "last_name": "Yadav",
-    "email": "varun.yadav5@example.com",
-    "phone": "9039673407",
+    "email": "ayush.yadav5@example.com",
+    "phone": "9039671407",
     "department": "Data Science",
     "designation": "DevOps",
-    "salary": 450000,
+    "salary": 470000,
     "experience": 3,
     "city": "Lucknow",
-    "state": "Jaipur",
+    "state": "Uttar Pradesh",
     "joining_date": "2022-06-15",
-    "status": "Active",
-    "Added_Employee": "2026-08-01T05:05:46.051757z"
+    "status": "Active"
   },
   {
     "id": 6,
@@ -78,5 +77,21 @@
     "joining_date": "2022-06-15",
     "status": "Active",
     "Added_Employee": "2026-08-01T05:09:50.582697z"
+  },
+  {
+    "id": 7,
+    "first_name": "Arjun",
+    "last_name": "Jain",
+    "email": "arjun.jain9@example.com",
+    "phone": "9297562818",
+    "department": "Ai/Ml",
+    "designation": "Intern",
+    "salary": 79000,
+    "experience": 11,
+    "city": "Noida",
+    "state": "Uttar Pradesh",
+    "joining_date": "2022-01-28",
+    "status": "Inactive",
+    "Added_Employee": "2026-08-05T18:57:07.335783z"
   }
 ]
