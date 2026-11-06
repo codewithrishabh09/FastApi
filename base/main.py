@@ -26,8 +26,9 @@ def get_students():
 
 # this is the path parameter
 @app.get('/students/{student_id}')
-def get_student(student_id: int = Path(..., description="The ID of the student to get", example=1)):
+def get_id(student_id: int = Path(..., description="The ID of the student to get", example=1)):
     data = load_data()
-    if student_id not in data:
-        raise HTTPException(status_code=404, detail="Student not found on this database. ")
-    return data[student_id]
+    for student in data:
+        if student['id'] == student_id:
+            return student
+    raise HTTPException(status_code=404, detail=f"Student with Id '{student_id}' not found")
