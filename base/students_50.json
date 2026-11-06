@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "name": "Yash Patel",
+    "age": 18,
+    "course": "Mechanical",
+    "year": 1,
+    "cgpa": 9.76,
+    "city": "Hyderabad",
+    "email": "yash.patel94@email.com"
+  },
+  {
+    "id": 2,
+    "name": "Dhruv Kumar",
+    "age": 23,
+    "course": "Civil",
+    "year": 4,
+    "cgpa": 9.74,
+    "city": "Delhi",
+    "email": "dhruv.kumar76@email.com"
+  },
+  {
+    "id": 3,
+    "name": "Aadhya Malhotra",
+    "age": 24,
+    "course": "Electrical",
+    "year": 1,
+    "cgpa": 7.2,
+    "city": "Kolkata",
+    "email": "aadhya.malhotra89@email.com"
+  },
+  {
+    "id": 4,
+    "name": "Reyansh Sharma",
+    "age": 21,
+    "course": "Mechanical",
+    "year": 2,
+    "cgpa": 6.75,
+    "city": "Lucknow",
+    "email": "reyansh.sharma13@email.com"
+  },
+  {
+    "id": 5,
+    "name": "Tanya Gupta",
+    "age": 20,
+    "course": "Chemical Engineering",
+    "year": 2,
+    "cgpa": 7.18,
+    "city": "Lucknow",
+    "email": "tanya.gupta93@email.com"
+  },
+  {
+    "id": 6,
+    "name": "Ayaan Chopra",
+    "age": 21,
+    "course": "Civil",
+    "year": 4,
+    "cgpa": 6.81,
+    "city": "Bangalore",
+    "email": "ayaan.chopra72@email.com"
+  },
+  {
+    "id": 7,
+    "name": "Dev Chopra",
+    "age": 18,
+    "course": "Data Science",
+    "year": 2,
+    "cgpa": 7.09,
+    "city": "Mumbai",
+    "email": "dev.chopra19@email.com"
+  },
+  {
+    "id": 8,
+    "name": "Zara Chopra",
+    "age": 18,
+    "course": "Mechanical",
+    "year": 2,
+    "cgpa": 8.29,
+    "city": "Hyderabad",
+    "email": "zara.chopra48@email.com"
+  },
+  {
+    "id": 9,
+    "name": "Ishaan Malhotra",
+    "age": 24,
+    "course": "Chemical Engineering",
+    "year": 4,
+    "cgpa": 8.0,
+    "city": "Jaipur",
+    "email": "ishaan.malhotra18@email.com"
+  },
+  {
+    "id": 10,
+    "name": "Kiara Mehta",
+    "age": 18,
+    "course": "Chemical Engineering",
+    "year": 4,
+    "cgpa": 7.05,
+    "city": "Ahmedabad",
+    "email": "kiara.mehta44@email.com"
+  },
+  {
+    "id": 11,
+    "name": "Sai Gupta",
+    "age": 18,
+    "course": "Electronics",
+    "year": 2,
+    "cgpa": 7.5,
+    "city": "Pune",
+    "email": "sai.gupta70@email.com"
+  },
+  {
+    "id": 12,
+    "name": "Aarohi Verma",
+    "age": 23,
+    "course": "Electrical",
+    "year": 4,
+    "cgpa": 9.29,
+    "city": "Jaipur",
+    "email": "aarohi.verma15@email.com"
+  },
+  {
+    "id": 13,
+    "name": "Kavya Kapoor",
+    "age": 22,
+    "course": "Biotechnology",
+    "year": 2,
+    "cgpa": 7.94,
+    "city": "Bangalore",
+    "email": "kavya.kapoor69@email.com"
+  },
+  {
+    "id": 14,
+    "name": "Ishita Patel",
+    "age": 19,
+    "course": "Mechanical",
+    "year": 3,
+    "cgpa": 6.62,
+    "city": "Bangalore",
+    "email": "ishita.patel34@email.com"
+  },
+  {
+    "id": 15,
+    "name": "Yash Kumar",
+    "age": 24,
+    "course": "Electronics",
+    "year": 3,
+    "cgpa": 7.66,
+    "city": "Bangalore",
+    "email": "yash.kumar50@email.com"
+  },
+  {
+    "id": 16,
+    "name": "Tara Malhotra",
+    "age": 24,
+    "course": "Civil",
+    "year": 4,
+    "cgpa": 9.36,
+    "city": "Ahmedabad",
+    "email": "tara.malhotra86@email.com"
+  },
+  {
+    "id": 17,
+    "name": "Aarohi Nair",
+    "age": 19,
+    "course": "Biotechnology",
+    "year": 4,
+    "cgpa": 9.05,
+    "city": "Delhi",
+    "email": "aarohi.nair67@email.com"
+  },
+  {
+    "id": 18,
+    "name": "Amit Verma",
+    "age": 19,
+    "course": "Aerospace",
+    "year": 1,
+    "cgpa": 8.92,
+    "city": "Ahmedabad",
+    "email": "amit.verma17@email.com"
+  },
+  {
+    "id": 19,
+    "name": "Aarohi Reddy",
+    "age": 22,
+    "course": "Computer Science",
+    "year": 2,
+    "cgpa": 9.22,
+    "city": "Pune",
+    "email": "aarohi.reddy57@email.com"
+  },
+  {
+    "id": 20,
+    "name": "Tara Shah",
+    "age": 18,
+    "course": "Chemical Engineering",
+    "year": 1,
+    "cgpa": 9.28,
+    "city": "Bangalore",
+    "email": "tara.shah72@email.com"
+  },
+  {
+    "id": 21,
+    "name": "Rahul Joshi",
+    "age": 20,
+    "course": "Biotechnology",
+    "year": 2,
+    "cgpa": 8.92,
+    "city": "Bangalore",
+    "email": "rahul.joshi88@email.com"
+  },
+  {
+    "id": 22,
+    "name": "Ira Pandey",
+    "age": 20,
+    "course": "Information Technology",
+    "year": 3,
+    "cgpa": 7.04,
+    "city": "Bangalore",
+    "email": "ira.pandey98@email.com"
+  },
+  {
+    "id": 23,
+    "name": "Manav Iyer",
+    "age": 24,
+    "course": "Biotechnology",
+    "year": 4,
+    "cgpa": 9.47,
+    "city": "Bangalore",
+    "email": "manav.iyer25@email.com"
+  },
+  {
+    "id": 24,
+    "name": "Atharv Kumar",
+    "age": 18,
+    "course": "Biotechnology",
+    "year": 4,
+    "cgpa": 7.53,
+    "city": "Mumbai",
+    "email": "atharv.kumar39@email.com"
+  },
+  {
+    "id": 25,
+    "name": "Shaurya Pandey",
+    "age": 18,
+    "course": "Computer Science",
+    "year": 2,
+    "cgpa": 8.24,
+    "city": "Delhi",
+    "email": "shaurya.pandey76@email.com"
+  },
+  {
+    "id": 26,
+    "name": "Riya Singh",
+    "age": 18,
+    "course": "Chemical Engineering",
+    "year": 3,
+    "cgpa": 6.91,
+    "city": "Hyderabad",
+    "email": "riya.singh89@email.com"
+  },
+  {
+    "id": 27,
+    "name": "Amit Desai",
+    "age": 19,
+    "course": "Aerospace",
+    "year": 1,
+    "cgpa": 9.25,
+    "city": "Jaipur",
+    "email": "amit.desai25@email.com"
+  },
+  {
+    "id": 28,
+    "name": "Shaurya Singh",
+    "age": 23,
+    "course": "Electrical",
+    "year": 3,
+    "cgpa": 7.96,
+    "city": "Hyderabad",
+    "email": "shaurya.singh41@email.com"
+  },
+  {
+    "id": 29,
+    "name": "Dhruv Kumar",
+    "age": 20,
+    "course": "Electronics",
+    "year": 3,
+    "cgpa": 9.73,
+    "city": "Hyderabad",
+    "email": "dhruv.kumar82@email.com"
+  },
+  {
+    "id": 30,
+    "name": "Diya Kumar",
+    "age": 23,
+    "course": "Electronics",
+    "year": 1,
+    "cgpa": 7.68,
+    "city": "Chennai",
+    "email": "diya.kumar86@email.com"
+  },
+  {
+    "id": 31,
+    "name": "Aarohi Rao",
+    "age": 19,
+    "course": "Aerospace",
+    "year": 2,
+    "cgpa": 8.35,
+    "city": "Jaipur",
+    "email": "aarohi.rao39@email.com"
+  },
+  {
+    "id": 32,
+    "name": "Riya Reddy",
+    "age": 22,
+    "course": "Civil",
+    "year": 3,
+    "cgpa": 8.71,
+    "city": "Hyderabad",
+    "email": "riya.reddy65@email.com"
+  },
+  {
+    "id": 33,
+    "name": "Om Verma",
+    "age": 24,
+    "course": "Electrical",
+    "year": 2,
+    "cgpa": 7.67,
+    "city": "Hyderabad",
+    "email": "om.verma38@email.com"
+  },
+  {
+    "id": 34,
+    "name": "Simran Reddy",
+    "age": 19,
+    "course": "Electrical",
+    "year": 2,
+    "cgpa": 8.61,
+    "city": "Delhi",
+    "email": "simran.reddy39@email.com"
+  },
+  {
+    "id": 35,
+    "name": "Pari Rao",
+    "age": 23,
+    "course": "Electrical",
+    "year": 1,
+    "cgpa": 9.6,
+    "city": "Chennai",
+    "email": "pari.rao98@email.com"
+  },
+  {
+    "id": 36,
+    "name": "Pooja Gupta",
+    "age": 24,
+    "course": "Chemical Engineering",
+    "year": 2,
+    "cgpa": 8.8,
+    "city": "Pune",
+    "email": "pooja.gupta99@email.com"
+  },
+  {
+    "id": 37,
+    "name": "Jatin Nair",
+    "age": 22,
+    "course": "Data Science",
+    "year": 2,
+    "cgpa": 9.69,
+    "city": "Lucknow",
+    "email": "jatin.nair48@email.com"
+  },
+  {
+    "id": 38,
+    "name": "Rudra Reddy",
+    "age": 19,
+    "course": "Information Technology",
+    "year": 3,
+    "cgpa": 8.83,
+    "city": "Mumbai",
+    "email": "rudra.reddy80@email.com"
+  },
+  {
+    "id": 39,
+    "name": "Ira Malhotra",
+    "age": 22,
+    "course": "Aerospace",
+    "year": 4,
+    "cgpa": 8.43,
+    "city": "Bangalore",
+    "email": "ira.malhotra96@email.com"
+  },
+  {
+    "id": 40,
+    "name": "Diya Shah",
+    "age": 20,
+    "course": "Mechanical",
+    "year": 1,
+    "cgpa": 7.56,
+    "city": "Ahmedabad",
+    "email": "diya.shah30@email.com"
+  },
+  {
+    "id": 41,
+    "name": "Arjun Pandey",
+    "age": 23,
+    "course": "Biotechnology",
+    "year": 2,
+    "cgpa": 6.42,
+    "city": "Hyderabad",
+    "email": "arjun.pandey41@email.com"
+  },
+  {
+    "id": 42,
+    "name": "Aarav Sharma",
+    "age": 19,
+    "course": "Mechanical",
+    "year": 4,
+    "cgpa": 7.28,
+    "city": "Bangalore",
+    "email": "aarav.sharma83@email.com"
+  },
+  {
+    "id": 43,
+    "name": "Kabir Kapoor",
+    "age": 19,
+    "course": "Electrical",
+    "year": 1,
+    "cgpa": 6.53,
+    "city": "Ahmedabad",
+    "email": "kabir.kapoor23@email.com"
+  },
+  {
+    "id": 44,
+    "name": "Myra Agarwal",
+    "age": 23,
+    "course": "Mechanical",
+    "year": 2,
+    "cgpa": 8.58,
+    "city": "Pune",
+    "email": "myra.agarwal82@email.com"
+  },
+  {
+    "id": 45,
+    "name": "Kabir Bhat",
+    "age": 20,
+    "course": "Biotechnology",
+    "year": 4,
+    "cgpa": 7.48,
+    "city": "Delhi",
+    "email": "kabir.bhat51@email.com"
+  },
+  {
+    "id": 46,
+    "name": "Amit Malhotra",
+    "age": 21,
+    "course": "Chemical Engineering",
+    "year": 4,
+    "cgpa": 8.88,
+    "city": "Delhi",
+    "email": "amit.malhotra68@email.com"
+  },
+  {
+    "id": 47,
+    "name": "Pari Kapoor",
+    "age": 18,
+    "course": "Aerospace",
+    "year": 3,
+    "cgpa": 9.52,
+    "city": "Delhi",
+    "email": "pari.kapoor90@email.com"
+  },
+  {
+    "id": 48,
+    "name": "Sneha Kapoor",
+    "age": 18,
+    "course": "Electronics",
+    "year": 4,
+    "cgpa": 7.25,
+    "city": "Kolkata",
+    "email": "sneha.kapoor11@email.com"
+  },
+  {
+    "id": 49,
+    "name": "Dhruv Patel",
+    "age": 18,
+    "course": "Mechanical",
+    "year": 3,
+    "cgpa": 7.57,
+    "city": "Delhi",
+    "email": "dhruv.patel56@email.com"
+  },
+  {
+    "id": 50,
+    "name": "Diya Shah",
+    "age": 23,
+    "course": "Aerospace",
+    "year": 1,
+    "cgpa": 7.47,
+    "city": "Jaipur",
+    "email": "diya.shah20@email.com"
+  }
+]
