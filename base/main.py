@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPException, Path
+from fastapi import FastAPI, HTTPException, Path, Query
 import json
 
 app = FastAPI()
@@ -38,3 +38,16 @@ https:127.0.0.1:8000/filter?course=Mechnical
 ? -> after this our query is present
 course=Mechnical --> this is key-value pair
 '''
+@app.get('/filter')
+def filter_students(course: str = Query(..., description="Enter the students course", example="Mechnical")):
+    data = load_data()
+    
+    if course not in data:
+        return data
+    
+    filtered = {}
+    for student_id, info in data.items():
+        if info["course"] == course:
+            filtered[student_id] = info
+
+    return filtered
