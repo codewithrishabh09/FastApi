@@ -32,3 +32,9 @@ def get_id(student_id: int = Path(..., description="The ID of the student to get
         if student['id'] == student_id:
             return student
     raise HTTPException(status_code=404, detail=f"Student with Id '{student_id}' not found")
+
+'''
+https:127.0.0.1:8000/filter?course=Mechnical
+? -> after this our query is present
+course=Mechnical --> this is key-value pair
+'''
